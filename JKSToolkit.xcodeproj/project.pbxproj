@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04200B611552962D002CF16D /* NSString+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B5F1552962D002CF16D /* NSString+JKSAdditions.h */; };
+		04200B621552962D002CF16D /* NSString+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B601552962D002CF16D /* NSString+JKSAdditions.m */; };
+		04200B631552962D002CF16D /* NSString+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B601552962D002CF16D /* NSString+JKSAdditions.m */; };
+		04200B6715529674002CF16D /* JKSNSStringAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B6615529674002CF16D /* JKSNSStringAdditionsTests.m */; };
 		04FA9B99154F3B2B00518173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
 		04FA9BA3154F3B2B00518173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FA9BA1154F3B2B00518173 /* InfoPlist.strings */; };
 		04FA9BA7154F3B2B00518173 /* JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BA6154F3B2B00518173 /* JKSToolkit.m */; };
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04200B5F1552962D002CF16D /* NSString+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JKSAdditions.h"; path = "Categories/NSString+JKSAdditions.h"; sourceTree = "<group>"; };
+		04200B601552962D002CF16D /* NSString+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JKSAdditions.m"; path = "Categories/NSString+JKSAdditions.m"; sourceTree = "<group>"; };
+		04200B6615529674002CF16D /* JKSNSStringAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSNSStringAdditionsTests.m; sourceTree = "<group>"; };
 		04FA9B95154F3B2B00518173 /* JKSToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA9B98154F3B2B00518173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		04FA9B9B154F3B2B00518173 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -146,6 +153,7 @@
 				04FA9BB5154F3B2B00518173 /* Supporting Files */,
 				04FA9BCD154F3BF400518173 /* JKSPathUtilitiesTest.m */,
 				04FA9BD5154F3E2000518173 /* NSArrayJKSToolkitTests.m */,
+				04200B6615529674002CF16D /* JKSNSStringAdditionsTests.m */,
 			);
 			path = JKSToolkitTests;
 			sourceTree = "<group>";
@@ -164,6 +172,8 @@
 			children = (
 				04FA9BCF154F3E0400518173 /* NSArray+JKSToolkit.h */,
 				04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */,
+				04200B5F1552962D002CF16D /* NSString+JKSAdditions.h */,
+				04200B601552962D002CF16D /* NSString+JKSAdditions.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -186,6 +196,7 @@
 			files = (
 				04FA9BC9154F3B9600518173 /* JKSPathUtilities.h in Headers */,
 				04FA9BD1154F3E0400518173 /* NSArray+JKSToolkit.h in Headers */,
+				04200B611552962D002CF16D /* NSString+JKSAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +310,7 @@
 				04FA9BA7154F3B2B00518173 /* JKSToolkit.m in Sources */,
 				04FA9BCA154F3B9600518173 /* JKSPathUtilities.m in Sources */,
 				04FA9BD2154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */,
+				04200B621552962D002CF16D /* NSString+JKSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +322,8 @@
 				04FA9BCE154F3BF400518173 /* JKSPathUtilitiesTest.m in Sources */,
 				04FA9BD3154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */,
 				04FA9BD6154F3E2000518173 /* NSArrayJKSToolkitTests.m in Sources */,
+				04200B631552962D002CF16D /* NSString+JKSAdditions.m in Sources */,
+				04200B6715529674002CF16D /* JKSNSStringAdditionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

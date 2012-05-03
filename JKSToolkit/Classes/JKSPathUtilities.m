@@ -8,7 +8,7 @@
 
 #import "JKSPathUtilities.h"
 #import "NSArray+JKSToolkit.h"
-
+#import "NSString+JKSAdditions.h"
 
 @implementation JKSPathUtilities
 
@@ -41,10 +41,8 @@ NSString* bundleIdentifier()
 
 + (NSString *)uniqueTemporaryFilename
 {
-    CFUUIDRef uuid = CFUUIDCreate(kCFAllocatorDefault);
-    NSString *uuidStr = (__bridge_transfer NSString *)CFUUIDCreateString(kCFAllocatorDefault, uuid);
-    CFRelease(uuid);
-    return [NSString stringWithFormat:@"%@/%@.%@", NSTemporaryDirectory(), bundleIdentifier(), uuidStr];
+    NSString *uuid = [NSString jks_UUID];
+    return [NSString stringWithFormat:@"%@/%@.%@", NSTemporaryDirectory(), bundleIdentifier(), uuid];
 }
 
 @end
