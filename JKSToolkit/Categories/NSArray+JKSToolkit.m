@@ -25,4 +25,14 @@
     return [self objectsAtIndexes:indexes];
 }
 
+
+- (NSArray *)jks_selectEvery:(NSUInteger)nth
+{
+    NSMutableArray *selected = [[NSMutableArray alloc] init];
+    for (NSUInteger i = 0; i < [self count]; i += nth) {
+        [selected addObject:[self objectAtIndex:i]];
+    }
+    return [NSArray arrayWithArray:selected];
+}
+
 @end

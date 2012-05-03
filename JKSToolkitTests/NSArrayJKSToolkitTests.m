@@ -31,4 +31,14 @@
     STAssertEqualObjects(([NSArray arrayWithObjects:@"bar", @"baz", nil]), filtered, nil);
 }
 
+
+- (void)testSelectEvery
+{
+    NSArray *letters = [@"a b c d e f g h i j k" componentsSeparatedByString:@" "];
+    NSArray *everyThird = [letters jks_selectEvery:3];
+    NSArray *expected = [NSArray arrayWithObjects:@"a", @"d", @"g", @"j", nil];
+    STAssertEquals([expected count], [everyThird count], nil);
+    STAssertEqualObjects(expected, everyThird, nil);
+}
+
 @end
