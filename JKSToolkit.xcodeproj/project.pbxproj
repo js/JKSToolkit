@@ -14,6 +14,7 @@
 		04200B6A1552C2CA002CF16D /* NSError+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B681552C2CA002CF16D /* NSError+JKSAdditions.h */; };
 		04200B6B1552C2CA002CF16D /* NSError+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B691552C2CA002CF16D /* NSError+JKSAdditions.m */; };
 		04200B6C1552C2CA002CF16D /* NSError+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B691552C2CA002CF16D /* NSError+JKSAdditions.m */; };
+		04200B6E1552CA0A002CF16D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04200B6D1552CA0A002CF16D /* Security.framework */; };
 		04FA9B99154F3B2B00518173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
 		04FA9BA3154F3B2B00518173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FA9BA1154F3B2B00518173 /* InfoPlist.strings */; };
 		04FA9BA7154F3B2B00518173 /* JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BA6154F3B2B00518173 /* JKSToolkit.m */; };
@@ -47,6 +48,7 @@
 		04200B6615529674002CF16D /* JKSNSStringAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSNSStringAdditionsTests.m; sourceTree = "<group>"; };
 		04200B681552C2CA002CF16D /* NSError+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+JKSAdditions.h"; path = "Categories/NSError+JKSAdditions.h"; sourceTree = "<group>"; };
 		04200B691552C2CA002CF16D /* NSError+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+JKSAdditions.m"; path = "Categories/NSError+JKSAdditions.m"; sourceTree = "<group>"; };
+		04200B6D1552CA0A002CF16D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		04FA9B95154F3B2B00518173 /* JKSToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA9B98154F3B2B00518173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		04FA9B9B154F3B2B00518173 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04200B6E1552CA0A002CF16D /* Security.framework in Frameworks */,
 				04FA9B99154F3B2B00518173 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,6 +116,7 @@
 		04FA9B97154F3B2B00518173 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04200B6D1552CA0A002CF16D /* Security.framework */,
 				04FA9B98154F3B2B00518173 /* Cocoa.framework */,
 				04FA9BAE154F3B2B00518173 /* SenTestingKit.framework */,
 				04FA9B9A154F3B2B00518173 /* Other Frameworks */,
