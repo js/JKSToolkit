@@ -18,7 +18,7 @@
 
 - (void)testUUID
 {
-    NSString *uuid = [NSString jks_UUID];
+    NSString *uuid = [NSString jks_UUIDString];
     STAssertEquals((NSUInteger)36, [uuid length], nil);
 }
 

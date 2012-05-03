@@ -41,7 +41,7 @@ NSString* bundleIdentifier()
 
 + (NSString *)uniqueTemporaryFilename
 {
-    NSString *uuid = [NSString jks_UUID];
+    NSString *uuid = [NSString jks_UUIDString];
     return [NSString stringWithFormat:@"%@/%@.%@", NSTemporaryDirectory(), bundleIdentifier(), uuid];
 }
 

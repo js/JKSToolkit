@@ -10,7 +10,7 @@
 
 @implementation NSString (JKSAdditions)
 
-+ (NSString *)jks_UUID
++ (NSString *)jks_UUIDString
 {
     CFUUIDRef uuid = CFUUIDCreate(kCFAllocatorDefault);
     NSString *uuidStr = (__bridge_transfer NSString *)CFUUIDCreateString(kCFAllocatorDefault, uuid);

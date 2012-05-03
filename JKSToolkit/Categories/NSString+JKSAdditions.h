@@ -12,6 +12,6 @@
 
 /** Returns a globally unique identifier
  */
-+ (NSString *)jks_UUID;
++ (NSString *)jks_UUIDString;
 
 @end
