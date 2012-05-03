@@ -14,7 +14,14 @@
 		04FA9BB0154F3B2B00518173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
 		04FA9BB3154F3B2B00518173 /* JKSToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B95154F3B2B00518173 /* JKSToolkit.framework */; };
 		04FA9BB9154F3B2B00518173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FA9BB7154F3B2B00518173 /* InfoPlist.strings */; };
-		04FA9BBC154F3B2B00518173 /* JKSToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BBB154F3B2B00518173 /* JKSToolkitTests.m */; };
+		04FA9BC9154F3B9600518173 /* JKSPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BC7154F3B9600518173 /* JKSPathUtilities.h */; };
+		04FA9BCA154F3B9600518173 /* JKSPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */; };
+		04FA9BCB154F3B9600518173 /* JKSPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */; };
+		04FA9BCE154F3BF400518173 /* JKSPathUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BCD154F3BF400518173 /* JKSPathUtilitiesTest.m */; };
+		04FA9BD1154F3E0400518173 /* NSArray+JKSToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BCF154F3E0400518173 /* NSArray+JKSToolkit.h */; };
+		04FA9BD2154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */; };
+		04FA9BD3154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */; };
+		04FA9BD6154F3E2000518173 /* NSArrayJKSToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD5154F3E2000518173 /* NSArrayJKSToolkitTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,17 +40,21 @@
 		04FA9B9B154F3B2B00518173 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		04FA9B9C154F3B2B00518173 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		04FA9B9D154F3B2B00518173 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		04FA9BA0154F3B2B00518173 /* JKSToolkit-Info.plist */ = {isa = PBXFileReference; path = "JKSToolkit-Info.plist"; sourceTree = "<group>"; };
+		04FA9BA0154F3B2B00518173 /* JKSToolkit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSToolkit-Info.plist"; sourceTree = "<group>"; };
 		04FA9BA2154F3B2B00518173 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		04FA9BA4154F3B2B00518173 /* JKSToolkit-Prefix.pch */ = {isa = PBXFileReference; path = "JKSToolkit-Prefix.pch"; sourceTree = "<group>"; };
-		04FA9BA5154F3B2B00518173 /* JKSToolkit.h */ = {isa = PBXFileReference; path = JKSToolkit.h; sourceTree = "<group>"; };
+		04FA9BA4154F3B2B00518173 /* JKSToolkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKSToolkit-Prefix.pch"; sourceTree = "<group>"; };
+		04FA9BA5154F3B2B00518173 /* JKSToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSToolkit.h; sourceTree = "<group>"; };
 		04FA9BA6154F3B2B00518173 /* JKSToolkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSToolkit.m; sourceTree = "<group>"; };
 		04FA9BAD154F3B2B00518173 /* JKSToolkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKSToolkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA9BAE154F3B2B00518173 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		04FA9BB6154F3B2B00518173 /* JKSToolkitTests-Info.plist */ = {isa = PBXFileReference; path = "JKSToolkitTests-Info.plist"; sourceTree = "<group>"; };
+		04FA9BB6154F3B2B00518173 /* JKSToolkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSToolkitTests-Info.plist"; sourceTree = "<group>"; };
 		04FA9BB8154F3B2B00518173 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		04FA9BBA154F3B2B00518173 /* JKSToolkitTests.h */ = {isa = PBXFileReference; path = JKSToolkitTests.h; sourceTree = "<group>"; };
-		04FA9BBB154F3B2B00518173 /* JKSToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSToolkitTests.m; sourceTree = "<group>"; };
+		04FA9BC7154F3B9600518173 /* JKSPathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSPathUtilities.h; path = Classes/JKSPathUtilities.h; sourceTree = "<group>"; };
+		04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSPathUtilities.m; path = Classes/JKSPathUtilities.m; sourceTree = "<group>"; };
+		04FA9BCD154F3BF400518173 /* JKSPathUtilitiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSPathUtilitiesTest.m; sourceTree = "<group>"; };
+		04FA9BCF154F3E0400518173 /* NSArray+JKSToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+JKSToolkit.h"; path = "Categories/NSArray+JKSToolkit.h"; sourceTree = "<group>"; };
+		04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JKSToolkit.m"; path = "Categories/NSArray+JKSToolkit.m"; sourceTree = "<group>"; };
+		04FA9BD5154F3E2000518173 /* NSArrayJKSToolkitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayJKSToolkitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +121,8 @@
 		04FA9B9E154F3B2B00518173 /* JKSToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				04FA9BC6154F3B7800518173 /* Classes */,
+				04FA9BC5154F3B5700518173 /* Categories */,
 				04FA9BA5154F3B2B00518173 /* JKSToolkit.h */,
 				04FA9BA6154F3B2B00518173 /* JKSToolkit.m */,
 				04FA9B9F154F3B2B00518173 /* Supporting Files */,
@@ -130,9 +143,9 @@
 		04FA9BB4154F3B2B00518173 /* JKSToolkitTests */ = {
 			isa = PBXGroup;
 			children = (
-				04FA9BBA154F3B2B00518173 /* JKSToolkitTests.h */,
-				04FA9BBB154F3B2B00518173 /* JKSToolkitTests.m */,
 				04FA9BB5154F3B2B00518173 /* Supporting Files */,
+				04FA9BCD154F3BF400518173 /* JKSPathUtilitiesTest.m */,
+				04FA9BD5154F3E2000518173 /* NSArrayJKSToolkitTests.m */,
 			);
 			path = JKSToolkitTests;
 			sourceTree = "<group>";
@@ -146,6 +159,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		04FA9BC5154F3B5700518173 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				04FA9BCF154F3E0400518173 /* NSArray+JKSToolkit.h */,
+				04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		04FA9BC6154F3B7800518173 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04FA9BC7154F3B9600518173 /* JKSPathUtilities.h */,
+				04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -153,6 +184,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FA9BC9154F3B9600518173 /* JKSPathUtilities.h in Headers */,
+				04FA9BD1154F3E0400518173 /* NSArray+JKSToolkit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FA9BA7154F3B2B00518173 /* JKSToolkit.m in Sources */,
+				04FA9BCA154F3B9600518173 /* JKSPathUtilities.m in Sources */,
+				04FA9BD2154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FA9BBC154F3B2B00518173 /* JKSToolkitTests.m in Sources */,
+				04FA9BCB154F3B9600518173 /* JKSPathUtilities.m in Sources */,
+				04FA9BCE154F3BF400518173 /* JKSPathUtilitiesTest.m in Sources */,
+				04FA9BD3154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */,
+				04FA9BD6154F3E2000518173 /* NSArrayJKSToolkitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +400,7 @@
 				GCC_PREFIX_HEADER = "JKSToolkit/JKSToolkit-Prefix.pch";
 				INFOPLIST_FILE = "JKSToolkit/JKSToolkit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -376,6 +415,7 @@
 				GCC_PREFIX_HEADER = "JKSToolkit/JKSToolkit-Prefix.pch";
 				INFOPLIST_FILE = "JKSToolkit/JKSToolkit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -423,6 +463,7 @@
 				04FA9BC1154F3B2B00518173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04FA9BC2154F3B2B00518173 /* Build configuration list for PBXNativeTarget "JKSToolkitTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +472,7 @@
 				04FA9BC4154F3B2B00518173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
