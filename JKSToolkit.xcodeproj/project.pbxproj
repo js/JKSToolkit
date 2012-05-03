@@ -19,6 +19,7 @@
 		04200B72155320D8002CF16D /* NSDictionary+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */; };
 		04200B73155320D8002CF16D /* NSDictionary+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */; };
 		04200B76155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B75155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m */; };
+		04200B78155323A4002CF16D /* JKSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B77155323A4002CF16D /* JKSMacros.h */; };
 		04FA9B99154F3B2B00518173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
 		04FA9BA3154F3B2B00518173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FA9BA1154F3B2B00518173 /* InfoPlist.strings */; };
 		04FA9BA7154F3B2B00518173 /* JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BA6154F3B2B00518173 /* JKSToolkit.m */; };
@@ -56,6 +57,7 @@
 		04200B6F155320D8002CF16D /* NSDictionary+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JKSAdditions.h"; path = "Categories/NSDictionary+JKSAdditions.h"; sourceTree = "<group>"; };
 		04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JKSAdditions.m"; path = "Categories/NSDictionary+JKSAdditions.m"; sourceTree = "<group>"; };
 		04200B75155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSNSDictionaryAdditionsTests.m; sourceTree = "<group>"; };
+		04200B77155323A4002CF16D /* JKSMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSMacros.h; path = Macros/JKSMacros.h; sourceTree = "<group>"; };
 		04FA9B95154F3B2B00518173 /* JKSToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA9B98154F3B2B00518173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		04FA9B9B154F3B2B00518173 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -101,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04200B79155323AA002CF16D /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				04200B77155323A4002CF16D /* JKSMacros.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
 		04FA9B89154F3B2B00518173 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 		04FA9B9E154F3B2B00518173 /* JKSToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				04200B79155323AA002CF16D /* Macros */,
 				04FA9BC6154F3B7800518173 /* Classes */,
 				04FA9BC5154F3B5700518173 /* Categories */,
 				04FA9BA5154F3B2B00518173 /* JKSToolkit.h */,
@@ -220,6 +231,7 @@
 				04200B611552962D002CF16D /* NSString+JKSAdditions.h in Headers */,
 				04200B6A1552C2CA002CF16D /* NSError+JKSAdditions.h in Headers */,
 				04200B71155320D8002CF16D /* NSDictionary+JKSAdditions.h in Headers */,
+				04200B78155323A4002CF16D /* JKSMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
