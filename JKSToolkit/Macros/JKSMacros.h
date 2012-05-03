@@ -16,3 +16,7 @@
 
 #define JKSDegreesToRadians(deg) (deg * M_PI * 180.0f)
 #define JKSRadiansToDegrees(rad) (rad * 180.0f / M_PI)
+
+#define UICOLOR(r, g, b, a) [UIColor colorWithRed:r green:g blue:b alpha:a]
+#define NSCOLOR(r, g, b, a) [NSColor colorWithCalibratedRed:r green:g blue:b alpha:a]
+#define NSDEVICECOLOR(r, g, b, a) [NSColor colorWithDeviceRed:r green:g blue:b alpha:a]
