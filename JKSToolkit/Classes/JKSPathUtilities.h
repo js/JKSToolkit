@@ -13,12 +13,15 @@
 /** Returns the application support path for this application based on its bundle identifier
  */
 + (NSString *)applicationSupportDirectoryPath;
+
 /** Returns the Documents directory for the current user
  */
 + (NSString *)documentsDirectoryPath;
+
 /** Returns the Cache directory for this application based on its bundle identifier
  */
 + (NSString *)applicationCachePath;
+
 /** Returns a unique directory/filename in the tmp directory. File/Directory doesn't exist yet
  */
 + (NSString *)uniqueTemporaryFilename;
