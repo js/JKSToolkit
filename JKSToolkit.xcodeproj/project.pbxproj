@@ -65,6 +65,7 @@
 		04200BD2155407F6002CF16D /* JKSQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSQueue.h; path = Classes/JKSQueue.h; sourceTree = "<group>"; };
 		04200BD3155407F6002CF16D /* JKSQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSQueue.m; path = Classes/JKSQueue.m; sourceTree = "<group>"; };
 		04200BD815540A6B002CF16D /* JKSQueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSQueueTests.m; sourceTree = "<group>"; };
+		04200BDA15541F10002CF16D /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		04FA9B95154F3B2B00518173 /* JKSToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA9B98154F3B2B00518173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		04FA9B9B154F3B2B00518173 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -122,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				04FA9B9E154F3B2B00518173 /* JKSToolkit */,
+				04200BDA15541F10002CF16D /* README.markdown */,
 				04FA9BB4154F3B2B00518173 /* JKSToolkitTests */,
 				04FA9B97154F3B2B00518173 /* Frameworks */,
 				04FA9B96154F3B2B00518173 /* Products */,
