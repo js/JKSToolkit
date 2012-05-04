@@ -20,6 +20,10 @@
 		04200B73155320D8002CF16D /* NSDictionary+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */; };
 		04200B76155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B75155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m */; };
 		04200B78155323A4002CF16D /* JKSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B77155323A4002CF16D /* JKSMacros.h */; };
+		04200BD4155407F6002CF16D /* JKSQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200BD2155407F6002CF16D /* JKSQueue.h */; };
+		04200BD5155407F6002CF16D /* JKSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200BD3155407F6002CF16D /* JKSQueue.m */; };
+		04200BD6155407F6002CF16D /* JKSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200BD3155407F6002CF16D /* JKSQueue.m */; };
+		04200BD915540A6B002CF16D /* JKSQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200BD815540A6B002CF16D /* JKSQueueTests.m */; };
 		04FA9B99154F3B2B00518173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
 		04FA9BA3154F3B2B00518173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FA9BA1154F3B2B00518173 /* InfoPlist.strings */; };
 		04FA9BA7154F3B2B00518173 /* JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BA6154F3B2B00518173 /* JKSToolkit.m */; };
@@ -58,6 +62,9 @@
 		04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JKSAdditions.m"; path = "Categories/NSDictionary+JKSAdditions.m"; sourceTree = "<group>"; };
 		04200B75155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSNSDictionaryAdditionsTests.m; sourceTree = "<group>"; };
 		04200B77155323A4002CF16D /* JKSMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSMacros.h; path = Macros/JKSMacros.h; sourceTree = "<group>"; };
+		04200BD2155407F6002CF16D /* JKSQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSQueue.h; path = Classes/JKSQueue.h; sourceTree = "<group>"; };
+		04200BD3155407F6002CF16D /* JKSQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSQueue.m; path = Classes/JKSQueue.m; sourceTree = "<group>"; };
+		04200BD815540A6B002CF16D /* JKSQueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSQueueTests.m; sourceTree = "<group>"; };
 		04FA9B95154F3B2B00518173 /* JKSToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA9B98154F3B2B00518173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		04FA9B9B154F3B2B00518173 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -182,6 +189,7 @@
 				04FA9BD5154F3E2000518173 /* NSArrayJKSToolkitTests.m */,
 				04200B6615529674002CF16D /* JKSNSStringAdditionsTests.m */,
 				04200B75155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m */,
+				04200BD815540A6B002CF16D /* JKSQueueTests.m */,
 			);
 			path = JKSToolkitTests;
 			sourceTree = "<group>";
@@ -215,6 +223,8 @@
 			children = (
 				04FA9BC7154F3B9600518173 /* JKSPathUtilities.h */,
 				04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */,
+				04200BD2155407F6002CF16D /* JKSQueue.h */,
+				04200BD3155407F6002CF16D /* JKSQueue.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -232,6 +242,7 @@
 				04200B6A1552C2CA002CF16D /* NSError+JKSAdditions.h in Headers */,
 				04200B71155320D8002CF16D /* NSDictionary+JKSAdditions.h in Headers */,
 				04200B78155323A4002CF16D /* JKSMacros.h in Headers */,
+				04200BD4155407F6002CF16D /* JKSQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +359,7 @@
 				04200B621552962D002CF16D /* NSString+JKSAdditions.m in Sources */,
 				04200B6B1552C2CA002CF16D /* NSError+JKSAdditions.m in Sources */,
 				04200B72155320D8002CF16D /* NSDictionary+JKSAdditions.m in Sources */,
+				04200BD5155407F6002CF16D /* JKSQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +376,8 @@
 				04200B6C1552C2CA002CF16D /* NSError+JKSAdditions.m in Sources */,
 				04200B73155320D8002CF16D /* NSDictionary+JKSAdditions.m in Sources */,
 				04200B76155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m in Sources */,
+				04200BD6155407F6002CF16D /* JKSQueue.m in Sources */,
+				04200BD915540A6B002CF16D /* JKSQueueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
