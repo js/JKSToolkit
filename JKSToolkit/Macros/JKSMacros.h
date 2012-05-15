@@ -12,7 +12,7 @@
 #else
 #define LOG(args...) while(0){}
 #define DLOG(args...) while(0){}
-#end
+#endif
 
 #define JKSDegreesToRadians(deg) (deg * M_PI * 180.0f)
 #define JKSRadiansToDegrees(rad) (rad * 180.0f / M_PI)
