@@ -1,13 +1,13 @@
 //
-//  JKSToolkit.h
-//  JKSToolkit
+//  JKSToolKit.h
+//  JKSToolKit
 //
-//  Created by Johan Sørensen on 4/30/12.
+//  Created by Johan Sørensen on 5/15/12.
 //  Copyright (c) 2012 Johan Sørensen. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface JKSToolkit : NSObject
+@interface JKSToolKit : NSObject
 
 @end

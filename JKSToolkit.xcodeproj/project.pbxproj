@@ -7,49 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04200B611552962D002CF16D /* NSString+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B5F1552962D002CF16D /* NSString+JKSAdditions.h */; };
-		04200B621552962D002CF16D /* NSString+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B601552962D002CF16D /* NSString+JKSAdditions.m */; };
 		04200B631552962D002CF16D /* NSString+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B601552962D002CF16D /* NSString+JKSAdditions.m */; };
 		04200B6715529674002CF16D /* JKSNSStringAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B6615529674002CF16D /* JKSNSStringAdditionsTests.m */; };
-		04200B6A1552C2CA002CF16D /* NSError+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B681552C2CA002CF16D /* NSError+JKSAdditions.h */; };
-		04200B6B1552C2CA002CF16D /* NSError+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B691552C2CA002CF16D /* NSError+JKSAdditions.m */; };
 		04200B6C1552C2CA002CF16D /* NSError+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B691552C2CA002CF16D /* NSError+JKSAdditions.m */; };
-		04200B6E1552CA0A002CF16D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04200B6D1552CA0A002CF16D /* Security.framework */; };
-		04200B71155320D8002CF16D /* NSDictionary+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B6F155320D8002CF16D /* NSDictionary+JKSAdditions.h */; };
-		04200B72155320D8002CF16D /* NSDictionary+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */; };
 		04200B73155320D8002CF16D /* NSDictionary+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */; };
 		04200B76155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B75155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m */; };
-		04200B78155323A4002CF16D /* JKSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B77155323A4002CF16D /* JKSMacros.h */; };
-		04200BD4155407F6002CF16D /* JKSQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200BD2155407F6002CF16D /* JKSQueue.h */; };
-		04200BD5155407F6002CF16D /* JKSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200BD3155407F6002CF16D /* JKSQueue.m */; };
 		04200BD6155407F6002CF16D /* JKSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200BD3155407F6002CF16D /* JKSQueue.m */; };
 		04200BD915540A6B002CF16D /* JKSQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200BD815540A6B002CF16D /* JKSQueueTests.m */; };
-		04FA9B99154F3B2B00518173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
-		04FA9BA3154F3B2B00518173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FA9BA1154F3B2B00518173 /* InfoPlist.strings */; };
-		04FA9BA7154F3B2B00518173 /* JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BA6154F3B2B00518173 /* JKSToolkit.m */; };
+		043884B01562984100316949 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
+		043884B61562984100316949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043884B41562984100316949 /* InfoPlist.strings */; };
+		043884BA1562984100316949 /* JKSToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 043884B91562984100316949 /* JKSToolKit.m */; };
 		04FA9BAF154F3B2B00518173 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9BAE154F3B2B00518173 /* SenTestingKit.framework */; };
 		04FA9BB0154F3B2B00518173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
-		04FA9BB3154F3B2B00518173 /* JKSToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B95154F3B2B00518173 /* JKSToolkit.framework */; };
 		04FA9BB9154F3B2B00518173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FA9BB7154F3B2B00518173 /* InfoPlist.strings */; };
-		04FA9BC9154F3B9600518173 /* JKSPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BC7154F3B9600518173 /* JKSPathUtilities.h */; };
-		04FA9BCA154F3B9600518173 /* JKSPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */; };
 		04FA9BCB154F3B9600518173 /* JKSPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */; };
 		04FA9BCE154F3BF400518173 /* JKSPathUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BCD154F3BF400518173 /* JKSPathUtilitiesTest.m */; };
-		04FA9BD1154F3E0400518173 /* NSArray+JKSToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BCF154F3E0400518173 /* NSArray+JKSToolkit.h */; };
-		04FA9BD2154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */; };
 		04FA9BD3154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */; };
 		04FA9BD6154F3E2000518173 /* NSArrayJKSToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD5154F3E2000518173 /* NSArrayJKSToolkitTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		04FA9BB1154F3B2B00518173 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04FA9B8B154F3B2B00518173 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04FA9B94154F3B2B00518173;
-			remoteInfo = JKSToolkit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04200B5F1552962D002CF16D /* NSString+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JKSAdditions.h"; path = "Categories/NSString+JKSAdditions.h"; sourceTree = "<group>"; };
@@ -66,7 +41,16 @@
 		04200BD3155407F6002CF16D /* JKSQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSQueue.m; path = Classes/JKSQueue.m; sourceTree = "<group>"; };
 		04200BD815540A6B002CF16D /* JKSQueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSQueueTests.m; sourceTree = "<group>"; };
 		04200BDA15541F10002CF16D /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
-		04FA9B95154F3B2B00518173 /* JKSToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		043884AF1562984100316949 /* JKSToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		043884B31562984100316949 /* JKSToolKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSToolKit-Info.plist"; sourceTree = "<group>"; };
+		043884B51562984100316949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		043884B71562984100316949 /* JKSToolKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKSToolKit-Prefix.pch"; sourceTree = "<group>"; };
+		043884B81562984100316949 /* JKSToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSToolKit.h; sourceTree = "<group>"; };
+		043884B91562984100316949 /* JKSToolKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSToolKit.m; sourceTree = "<group>"; };
+		043884C81562984100316949 /* JKSToolKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSToolKitTests-Info.plist"; sourceTree = "<group>"; };
+		043884CA1562984100316949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		043884CC1562984100316949 /* JKSToolKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSToolKitTests.h; sourceTree = "<group>"; };
+		043884CD1562984100316949 /* JKSToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSToolKitTests.m; sourceTree = "<group>"; };
 		04FA9B98154F3B2B00518173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		04FA9B9B154F3B2B00518173 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		04FA9B9C154F3B2B00518173 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -89,12 +73,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04FA9B91154F3B2B00518173 /* Frameworks */ = {
+		043884AB1562984100316949 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04200B6E1552CA0A002CF16D /* Security.framework in Frameworks */,
-				04FA9B99154F3B2B00518173 /* Cocoa.framework in Frameworks */,
+				043884B01562984100316949 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +87,6 @@
 			files = (
 				04FA9BAF154F3B2B00518173 /* SenTestingKit.framework in Frameworks */,
 				04FA9BB0154F3B2B00518173 /* Cocoa.framework in Frameworks */,
-				04FA9BB3154F3B2B00518173 /* JKSToolkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,12 +101,53 @@
 			name = Macros;
 			sourceTree = "<group>";
 		};
+		043884B11562984100316949 /* JKSToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				043884B81562984100316949 /* JKSToolKit.h */,
+				043884B91562984100316949 /* JKSToolKit.m */,
+				043884B21562984100316949 /* Supporting Files */,
+			);
+			path = JKSToolKit;
+			sourceTree = "<group>";
+		};
+		043884B21562984100316949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043884B31562984100316949 /* JKSToolKit-Info.plist */,
+				043884B41562984100316949 /* InfoPlist.strings */,
+				043884B71562984100316949 /* JKSToolKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043884C61562984100316949 /* JKSToolKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				043884CC1562984100316949 /* JKSToolKitTests.h */,
+				043884CD1562984100316949 /* JKSToolKitTests.m */,
+				043884C71562984100316949 /* Supporting Files */,
+			);
+			path = JKSToolKitTests;
+			sourceTree = "<group>";
+		};
+		043884C71562984100316949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043884C81562984100316949 /* JKSToolKitTests-Info.plist */,
+				043884C91562984100316949 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		04FA9B89154F3B2B00518173 = {
 			isa = PBXGroup;
 			children = (
 				04FA9B9E154F3B2B00518173 /* JKSToolkit */,
 				04200BDA15541F10002CF16D /* README.markdown */,
 				04FA9BB4154F3B2B00518173 /* JKSToolkitTests */,
+				043884B11562984100316949 /* JKSToolKit */,
+				043884C61562984100316949 /* JKSToolKitTests */,
 				04FA9B97154F3B2B00518173 /* Frameworks */,
 				04FA9B96154F3B2B00518173 /* Products */,
 			);
@@ -133,8 +156,8 @@
 		04FA9B96154F3B2B00518173 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04FA9B95154F3B2B00518173 /* JKSToolkit.framework */,
 				04FA9BAD154F3B2B00518173 /* JKSToolkitTests.octest */,
+				043884AF1562984100316949 /* JKSToolKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,39 +257,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		04FA9B92154F3B2B00518173 /* Headers */ = {
+		043884AC1562984100316949 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FA9BC9154F3B9600518173 /* JKSPathUtilities.h in Headers */,
-				04FA9BD1154F3E0400518173 /* NSArray+JKSToolkit.h in Headers */,
-				04200B611552962D002CF16D /* NSString+JKSAdditions.h in Headers */,
-				04200B6A1552C2CA002CF16D /* NSError+JKSAdditions.h in Headers */,
-				04200B71155320D8002CF16D /* NSDictionary+JKSAdditions.h in Headers */,
-				04200B78155323A4002CF16D /* JKSMacros.h in Headers */,
-				04200BD4155407F6002CF16D /* JKSQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		04FA9B94154F3B2B00518173 /* JKSToolkit */ = {
+		043884AE1562984100316949 /* JKSToolKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04FA9BBF154F3B2B00518173 /* Build configuration list for PBXNativeTarget "JKSToolkit" */;
+			buildConfigurationList = 043884D31562984100316949 /* Build configuration list for PBXNativeTarget "JKSToolKit" */;
 			buildPhases = (
-				04FA9B90154F3B2B00518173 /* Sources */,
-				04FA9B91154F3B2B00518173 /* Frameworks */,
-				04FA9B92154F3B2B00518173 /* Headers */,
-				04FA9B93154F3B2B00518173 /* Resources */,
+				043884AA1562984100316949 /* Sources */,
+				043884AB1562984100316949 /* Frameworks */,
+				043884AC1562984100316949 /* Headers */,
+				043884AD1562984100316949 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JKSToolkit;
-			productName = JKSToolkit;
-			productReference = 04FA9B95154F3B2B00518173 /* JKSToolkit.framework */;
+			name = JKSToolKit;
+			productName = JKSToolKit;
+			productReference = 043884AF1562984100316949 /* JKSToolKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		04FA9BAC154F3B2B00518173 /* JKSToolkitTests */ = {
@@ -281,7 +297,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				04FA9BB2154F3B2B00518173 /* PBXTargetDependency */,
 			);
 			name = JKSToolkitTests;
 			productName = JKSToolkitTests;
@@ -309,18 +324,18 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04FA9B94154F3B2B00518173 /* JKSToolkit */,
+				043884AE1562984100316949 /* JKSToolKit */,
 				04FA9BAC154F3B2B00518173 /* JKSToolkitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04FA9B93154F3B2B00518173 /* Resources */ = {
+		043884AD1562984100316949 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FA9BA3154F3B2B00518173 /* InfoPlist.strings in Resources */,
+				043884B61562984100316949 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,17 +366,11 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04FA9B90154F3B2B00518173 /* Sources */ = {
+		043884AA1562984100316949 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FA9BA7154F3B2B00518173 /* JKSToolkit.m in Sources */,
-				04FA9BCA154F3B9600518173 /* JKSPathUtilities.m in Sources */,
-				04FA9BD2154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */,
-				04200B621552962D002CF16D /* NSString+JKSAdditions.m in Sources */,
-				04200B6B1552C2CA002CF16D /* NSError+JKSAdditions.m in Sources */,
-				04200B72155320D8002CF16D /* NSDictionary+JKSAdditions.m in Sources */,
-				04200BD5155407F6002CF16D /* JKSQueue.m in Sources */,
+				043884BA1562984100316949 /* JKSToolKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,15 +394,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		04FA9BB2154F3B2B00518173 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04FA9B94154F3B2B00518173 /* JKSToolkit */;
-			targetProxy = 04FA9BB1154F3B2B00518173 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		043884B41562984100316949 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043884B51562984100316949 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		043884C91562984100316949 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043884CA1562984100316949 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		04FA9BA1154F3B2B00518173 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,6 +430,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		043884CF1562984100316949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKSToolKit/JKSToolKit-Prefix.pch";
+				INFOPLIST_FILE = "JKSToolKit/JKSToolKit-Info.plist";
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		043884D01562984100316949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKSToolKit/JKSToolKit-Prefix.pch";
+				INFOPLIST_FILE = "JKSToolKit/JKSToolKit-Info.plist";
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
 		04FA9BBD154F3B2B00518173 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -460,36 +507,6 @@
 			};
 			name = Release;
 		};
-		04FA9BC0154F3B2B00518173 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JKSToolkit/JKSToolkit-Prefix.pch";
-				INFOPLIST_FILE = "JKSToolkit/JKSToolkit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				RUN_CLANG_STATIC_ANALYZER = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		04FA9BC1154F3B2B00518173 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JKSToolkit/JKSToolkit-Prefix.pch";
-				INFOPLIST_FILE = "JKSToolkit/JKSToolkit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				RUN_CLANG_STATIC_ANALYZER = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Release;
-		};
 		04FA9BC3154F3B2B00518173 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -517,20 +534,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		043884D31562984100316949 /* Build configuration list for PBXNativeTarget "JKSToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043884CF1562984100316949 /* Debug */,
+				043884D01562984100316949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		04FA9B8E154F3B2B00518173 /* Build configuration list for PBXProject "JKSToolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04FA9BBD154F3B2B00518173 /* Debug */,
 				04FA9BBE154F3B2B00518173 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04FA9BBF154F3B2B00518173 /* Build configuration list for PBXNativeTarget "JKSToolkit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04FA9BC0154F3B2B00518173 /* Debug */,
-				04FA9BC1154F3B2B00518173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

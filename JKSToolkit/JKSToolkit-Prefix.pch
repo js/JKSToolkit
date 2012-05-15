@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'JKSToolkit' target in the 'JKSToolkit' project
+// Prefix header for all source files of the 'JKSToolKit' target in the 'JKSToolKit' project
 //
 
 #ifdef __OBJC__
