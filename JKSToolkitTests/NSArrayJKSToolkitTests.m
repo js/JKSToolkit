@@ -32,6 +32,21 @@
 }
 
 
+- (void)testObjectPassingTest
+{
+    NSArray *array = [NSArray arrayWithObjects:@"foo", @"bar", @"baz", nil];
+    id found = [array jks_objectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+        return NO;
+    }];
+    STAssertNil(found, nil);
+
+    found = [array jks_objectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+        return [obj isEqual:@"bar"];
+    }];
+    STAssertEqualObjects(@"bar", found, nil);
+}
+
+
 - (void)testSelectEvery
 {
     NSArray *letters = [@"a b c d e f g h i j k" componentsSeparatedByString:@" "];

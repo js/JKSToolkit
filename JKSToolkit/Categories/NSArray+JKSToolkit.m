@@ -26,6 +26,16 @@
 }
 
 
+- (id)jks_objectPassingTest:(BOOL (^)(id obj, NSUInteger idx, BOOL *stop))predicate
+{
+    NSIndexSet *indexes = [self indexesOfObjectsPassingTest:predicate];
+    if ([indexes count]) {
+        return [self objectAtIndex:[indexes firstIndex]];
+    }
+    return nil;
+}
+
+
 - (NSArray *)jks_selectEvery:(NSUInteger)nth
 {
     NSMutableArray *selected = [[NSMutableArray alloc] init];

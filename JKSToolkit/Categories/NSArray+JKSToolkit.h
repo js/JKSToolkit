@@ -21,6 +21,9 @@
  */
 - (NSArray *)jks_objectsPassingTest:(BOOL (^)(id obj, NSUInteger idx, BOOL *stop))predicate;
 
+/** Returns the first object that passes the block, or nil */
+- (id)jks_objectPassingTest:(BOOL (^)(id obj, NSUInteger idx, BOOL *stop))predicate;
+
 /** Returns a array composed of every N object in the receiver
  *
  * @param nth Number of objects to skip, eg. if array is 0..10 and nth is 5, object at index 0, 5 and 10 will be returned
