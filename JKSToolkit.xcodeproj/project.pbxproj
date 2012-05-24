@@ -30,6 +30,10 @@
 		043884B01562984100316949 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
 		043884B61562984100316949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043884B41562984100316949 /* InfoPlist.strings */; };
 		043884BA1562984100316949 /* JKSToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 043884B91562984100316949 /* JKSToolKit.m */; };
+		046B00FE156E727E008743D4 /* NSView+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B00FC156E727E008743D4 /* NSView+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046B00FF156E727E008743D4 /* NSView+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */; };
+		046B0103156E7B37008743D4 /* JKSFlippedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B0101156E7B37008743D4 /* JKSFlippedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046B0104156E7B37008743D4 /* JKSFlippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B0102156E7B37008743D4 /* JKSFlippedView.m */; };
 		04FA9BAF154F3B2B00518173 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9BAE154F3B2B00518173 /* SenTestingKit.framework */; };
 		04FA9BB0154F3B2B00518173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
 		04FA9BB9154F3B2B00518173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FA9BB7154F3B2B00518173 /* InfoPlist.strings */; };
@@ -64,6 +68,10 @@
 		043884CA1562984100316949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		043884CC1562984100316949 /* JKSToolKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSToolKitTests.h; sourceTree = "<group>"; };
 		043884CD1562984100316949 /* JKSToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSToolKitTests.m; sourceTree = "<group>"; };
+		046B00FC156E727E008743D4 /* NSView+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSView+JKSAdditions.h"; path = "Categories/NSView+JKSAdditions.h"; sourceTree = "<group>"; };
+		046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSView+JKSAdditions.m"; path = "Categories/NSView+JKSAdditions.m"; sourceTree = "<group>"; };
+		046B0101156E7B37008743D4 /* JKSFlippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSFlippedView.h; path = Classes/JKSFlippedView.h; sourceTree = "<group>"; };
+		046B0102156E7B37008743D4 /* JKSFlippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSFlippedView.m; path = Classes/JKSFlippedView.m; sourceTree = "<group>"; };
 		04FA9B98154F3B2B00518173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		04FA9B9B154F3B2B00518173 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		04FA9B9C154F3B2B00518173 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -252,6 +260,8 @@
 				04200B691552C2CA002CF16D /* NSError+JKSAdditions.m */,
 				04200B6F155320D8002CF16D /* NSDictionary+JKSAdditions.h */,
 				04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */,
+				046B00FC156E727E008743D4 /* NSView+JKSAdditions.h */,
+				046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -259,6 +269,8 @@
 		04FA9BC6154F3B7800518173 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				046B0101156E7B37008743D4 /* JKSFlippedView.h */,
+				046B0102156E7B37008743D4 /* JKSFlippedView.m */,
 				04FA9BC7154F3B9600518173 /* JKSPathUtilities.h */,
 				04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */,
 				04200BD2155407F6002CF16D /* JKSQueue.h */,
@@ -281,6 +293,8 @@
 				042CDF5D156C34E500B6E537 /* NSString+JKSAdditions.h in Headers */,
 				042CDF5F156C34ED00B6E537 /* NSError+JKSAdditions.h in Headers */,
 				042CDF61156C34F300B6E537 /* NSDictionary+JKSAdditions.h in Headers */,
+				046B0103156E7B37008743D4 /* JKSFlippedView.h in Headers */,
+				046B00FE156E727E008743D4 /* NSView+JKSAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +411,8 @@
 				042CDF5E156C34E900B6E537 /* NSString+JKSAdditions.m in Sources */,
 				042CDF60156C34F000B6E537 /* NSError+JKSAdditions.m in Sources */,
 				042CDF62156C34F700B6E537 /* NSDictionary+JKSAdditions.m in Sources */,
+				046B00FF156E727E008743D4 /* NSView+JKSAdditions.m in Sources */,
+				046B0104156E7B37008743D4 /* JKSFlippedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
