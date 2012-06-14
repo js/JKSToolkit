@@ -33,6 +33,13 @@
 }
 
 
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"<%@: %p enqueued: (\n  %@\n)>",
+            NSStringFromClass([self class]), self, [self.queue componentsJoinedByString:@"\n  "]];
+}
+
+
 - (void)enqueue:(id)object
 {
     NSParameterAssert(object);
