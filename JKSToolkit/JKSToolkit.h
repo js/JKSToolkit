@@ -6,8 +6,15 @@
 //  Copyright (c) 2012 Johan Sørensen. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "JKSMacros.h"
+#import "JKSBlockUtilities.h"
 
-@interface JKSToolKit : NSObject
+#import "JKSFlippedView.h"
+#import "JKSPathUtilities.h"
+#import "JKSQueue.h"
 
-@end
+#import "NSArray+JKSToolkit.h"
+#import "NSString+JKSAdditions.h"
+#import "NSError+JKSAdditions.h"
+#import "NSDictionary+JKSAdditions.h"
+#import "NSView+JKSAdditions.h"

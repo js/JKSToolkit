@@ -28,14 +28,13 @@
 		042CDF61156C34F300B6E537 /* NSDictionary+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B6F155320D8002CF16D /* NSDictionary+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		042CDF62156C34F700B6E537 /* NSDictionary+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */; };
 		043884B01562984100316949 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
-		043884B61562984100316949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043884B41562984100316949 /* InfoPlist.strings */; };
-		043884BA1562984100316949 /* JKSToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 043884B91562984100316949 /* JKSToolKit.m */; };
 		046B00FE156E727E008743D4 /* NSView+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B00FC156E727E008743D4 /* NSView+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		046B00FF156E727E008743D4 /* NSView+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */; };
 		046B0103156E7B37008743D4 /* JKSFlippedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B0101156E7B37008743D4 /* JKSFlippedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		046B0104156E7B37008743D4 /* JKSFlippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B0102156E7B37008743D4 /* JKSFlippedView.m */; };
 		04F315F41589DB090093739C /* JKSBlockUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F315F21589DB090093739C /* JKSBlockUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04F315F51589DB090093739C /* JKSBlockUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F315F31589DB090093739C /* JKSBlockUtilities.m */; };
+		04F315F9158A0B4C0093739C /* JKSToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BA5154F3B2B00518173 /* JKSToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04FA9BAF154F3B2B00518173 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9BAE154F3B2B00518173 /* SenTestingKit.framework */; };
 		04FA9BB0154F3B2B00518173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
 		04FA9BB9154F3B2B00518173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FA9BB7154F3B2B00518173 /* InfoPlist.strings */; };
@@ -61,11 +60,6 @@
 		04200BD815540A6B002CF16D /* JKSQueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSQueueTests.m; sourceTree = "<group>"; };
 		04200BDA15541F10002CF16D /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		043884AF1562984100316949 /* JKSToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		043884B31562984100316949 /* JKSToolKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSToolKit-Info.plist"; sourceTree = "<group>"; };
-		043884B51562984100316949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		043884B71562984100316949 /* JKSToolKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKSToolKit-Prefix.pch"; sourceTree = "<group>"; };
-		043884B81562984100316949 /* JKSToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSToolKit.h; sourceTree = "<group>"; };
-		043884B91562984100316949 /* JKSToolKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSToolKit.m; sourceTree = "<group>"; };
 		043884C81562984100316949 /* JKSToolKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSToolKitTests-Info.plist"; sourceTree = "<group>"; };
 		043884CA1562984100316949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		043884CC1562984100316949 /* JKSToolKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSToolKitTests.h; sourceTree = "<group>"; };
@@ -84,7 +78,6 @@
 		04FA9BA2154F3B2B00518173 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04FA9BA4154F3B2B00518173 /* JKSToolkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKSToolkit-Prefix.pch"; sourceTree = "<group>"; };
 		04FA9BA5154F3B2B00518173 /* JKSToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSToolkit.h; sourceTree = "<group>"; };
-		04FA9BA6154F3B2B00518173 /* JKSToolkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSToolkit.m; sourceTree = "<group>"; };
 		04FA9BAD154F3B2B00518173 /* JKSToolkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKSToolkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA9BAE154F3B2B00518173 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		04FA9BB6154F3B2B00518173 /* JKSToolkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSToolkitTests-Info.plist"; sourceTree = "<group>"; };
@@ -126,26 +119,6 @@
 			name = Macros;
 			sourceTree = "<group>";
 		};
-		043884B11562984100316949 /* JKSToolKit */ = {
-			isa = PBXGroup;
-			children = (
-				043884B81562984100316949 /* JKSToolKit.h */,
-				043884B91562984100316949 /* JKSToolKit.m */,
-				043884B21562984100316949 /* Supporting Files */,
-			);
-			path = JKSToolKit;
-			sourceTree = "<group>";
-		};
-		043884B21562984100316949 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				043884B31562984100316949 /* JKSToolKit-Info.plist */,
-				043884B41562984100316949 /* InfoPlist.strings */,
-				043884B71562984100316949 /* JKSToolKit-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		043884C61562984100316949 /* JKSToolKitTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +153,6 @@
 				04FA9B9E154F3B2B00518173 /* JKSToolkit */,
 				04200BDA15541F10002CF16D /* README.markdown */,
 				04FA9BB4154F3B2B00518173 /* JKSToolkitTests */,
-				043884B11562984100316949 /* JKSToolKit */,
 				043884C61562984100316949 /* JKSToolKitTests */,
 				04FA9B97154F3B2B00518173 /* Frameworks */,
 				04FA9B96154F3B2B00518173 /* Products */,
@@ -225,7 +197,6 @@
 				04FA9BC6154F3B7800518173 /* Classes */,
 				04FA9BC5154F3B5700518173 /* Categories */,
 				04FA9BA5154F3B2B00518173 /* JKSToolkit.h */,
-				04FA9BA6154F3B2B00518173 /* JKSToolkit.m */,
 				04FA9B9F154F3B2B00518173 /* Supporting Files */,
 			);
 			path = JKSToolkit;
@@ -310,6 +281,7 @@
 				046B0103156E7B37008743D4 /* JKSFlippedView.h in Headers */,
 				046B00FE156E727E008743D4 /* NSView+JKSAdditions.h in Headers */,
 				04F315F41589DB090093739C /* JKSBlockUtilities.h in Headers */,
+				04F315F9158A0B4C0093739C /* JKSToolkit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +356,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043884B61562984100316949 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043884BA1562984100316949 /* JKSToolKit.m in Sources */,
 				042CDF58156C34CF00B6E537 /* JKSPathUtilities.m in Sources */,
 				042CDF59156C34D500B6E537 /* JKSQueue.m in Sources */,
 				042CDF5C156C34E200B6E537 /* NSArray+JKSToolkit.m in Sources */,
@@ -453,14 +423,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		043884B41562984100316949 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				043884B51562984100316949 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		043884C91562984100316949 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
