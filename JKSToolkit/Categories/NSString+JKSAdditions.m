@@ -41,7 +41,7 @@ static NSString* MakeDigestString(NSString *source,
     unsigned char result[digestLength];
     memset(result, 0, sizeof(result));
     const char *str = [source UTF8String];
-    digest_func(str, strlen(str), result);
+    digest_func(str, (CC_LONG)strlen(str), result);
 
     NSMutableString *hexedHashString = [[NSMutableString alloc] initWithCapacity:digestLength];
     for (NSUInteger i = 0; i < sizeof(result); i++) {
