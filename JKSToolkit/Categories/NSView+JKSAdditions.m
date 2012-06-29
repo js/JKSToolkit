@@ -25,4 +25,10 @@
     [[NSGraphicsContext currentContext] restoreGraphicsState];
 }
 
+
+- (void)jks_addVisualConstraintsWithFormat:(NSString *)format views:(NSDictionary *)viewDict
+{
+    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:format options:0 metrics:nil views:viewDict]];
+}
+
 @end

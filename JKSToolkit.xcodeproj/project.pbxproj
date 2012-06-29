@@ -138,6 +138,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		04A419441590A4BC00F6E290 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				046B0101156E7B37008743D4 /* JKSFlippedView.h */,
+				046B0102156E7B37008743D4 /* JKSFlippedView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		04F315F01589DACB0093739C /* Functions */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +201,7 @@
 		04FA9B9E154F3B2B00518173 /* JKSToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				04A419441590A4BC00F6E290 /* Views */,
 				04F315F01589DACB0093739C /* Functions */,
 				04200B79155323AA002CF16D /* Macros */,
 				04FA9BC6154F3B7800518173 /* Classes */,
@@ -254,8 +264,6 @@
 		04FA9BC6154F3B7800518173 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				046B0101156E7B37008743D4 /* JKSFlippedView.h */,
-				046B0102156E7B37008743D4 /* JKSFlippedView.m */,
 				04FA9BC7154F3B9600518173 /* JKSPathUtilities.h */,
 				04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */,
 				04200BD2155407F6002CF16D /* JKSQueue.h */,
@@ -330,7 +338,7 @@
 		04FA9B8B154F3B2B00518173 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Johan Sørensen";
 			};
 			buildConfigurationList = 04FA9B8E154F3B2B00518173 /* Build configuration list for PBXProject "JKSToolkit" */;
@@ -486,6 +494,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -513,6 +522,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;

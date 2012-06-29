@@ -17,4 +17,9 @@
  */
 - (void)jks_drawPatternColor:(NSColor *)color inRect:(NSRect)rect;
 
+/** Shorthand of the [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:options:metrics:views:]] dance.
+ * Constraints are added with default options and metrics.
+ */
+- (void)jks_addVisualConstraintsWithFormat:(NSString *)format views:(NSDictionary *)viewDict;
+
 @end
