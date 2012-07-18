@@ -18,3 +18,4 @@
 #import "NSError+JKSAdditions.h"
 #import "NSDictionary+JKSAdditions.h"
 #import "NSView+JKSAdditions.h"
+#import "CATransaction+JKSAdditions.h"

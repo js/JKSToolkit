@@ -32,6 +32,9 @@
 		046B00FF156E727E008743D4 /* NSView+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */; };
 		046B0103156E7B37008743D4 /* JKSFlippedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B0101156E7B37008743D4 /* JKSFlippedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		046B0104156E7B37008743D4 /* JKSFlippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B0102156E7B37008743D4 /* JKSFlippedView.m */; };
+		0490B39115B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0490B39215B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0490B39015B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m */; };
+		0490B39515B6AB5000EDEAB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0490B39415B6AB5000EDEAB8 /* QuartzCore.framework */; };
 		04F315F41589DB090093739C /* JKSBlockUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F315F21589DB090093739C /* JKSBlockUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04F315F51589DB090093739C /* JKSBlockUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F315F31589DB090093739C /* JKSBlockUtilities.m */; };
 		04F315F9158A0B4C0093739C /* JKSToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BA5154F3B2B00518173 /* JKSToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,6 +71,9 @@
 		046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSView+JKSAdditions.m"; path = "Categories/NSView+JKSAdditions.m"; sourceTree = "<group>"; };
 		046B0101156E7B37008743D4 /* JKSFlippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSFlippedView.h; path = Classes/JKSFlippedView.h; sourceTree = "<group>"; };
 		046B0102156E7B37008743D4 /* JKSFlippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSFlippedView.m; path = Classes/JKSFlippedView.m; sourceTree = "<group>"; };
+		0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CATransaction+JKSAdditions.h"; path = "Categories/CATransaction+JKSAdditions.h"; sourceTree = "<group>"; };
+		0490B39015B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+JKSAdditions.m"; path = "Categories/CATransaction+JKSAdditions.m"; sourceTree = "<group>"; };
+		0490B39415B6AB5000EDEAB8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		04F315F21589DB090093739C /* JKSBlockUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSBlockUtilities.h; path = Functions/JKSBlockUtilities.h; sourceTree = "<group>"; };
 		04F315F31589DB090093739C /* JKSBlockUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSBlockUtilities.m; path = Functions/JKSBlockUtilities.m; sourceTree = "<group>"; };
 		04FA9B98154F3B2B00518173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -95,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0490B39515B6AB5000EDEAB8 /* QuartzCore.framework in Frameworks */,
 				043884B01562984100316949 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,6 +187,7 @@
 		04FA9B97154F3B2B00518173 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0490B39415B6AB5000EDEAB8 /* QuartzCore.framework */,
 				04200B6D1552CA0A002CF16D /* Security.framework */,
 				04FA9B98154F3B2B00518173 /* Cocoa.framework */,
 				04FA9BAE154F3B2B00518173 /* SenTestingKit.framework */,
@@ -257,6 +265,8 @@
 				04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */,
 				046B00FC156E727E008743D4 /* NSView+JKSAdditions.h */,
 				046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */,
+				0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */,
+				0490B39015B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -288,6 +298,7 @@
 				042CDF61156C34F300B6E537 /* NSDictionary+JKSAdditions.h in Headers */,
 				046B0103156E7B37008743D4 /* JKSFlippedView.h in Headers */,
 				046B00FE156E727E008743D4 /* NSView+JKSAdditions.h in Headers */,
+				0490B39115B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h in Headers */,
 				04F315F41589DB090093739C /* JKSBlockUtilities.h in Headers */,
 				04F315F9158A0B4C0093739C /* JKSToolkit.h in Headers */,
 			);
@@ -407,6 +418,7 @@
 				046B00FF156E727E008743D4 /* NSView+JKSAdditions.m in Sources */,
 				046B0104156E7B37008743D4 /* JKSFlippedView.m in Sources */,
 				04F315F51589DB090093739C /* JKSBlockUtilities.m in Sources */,
+				0490B39215B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
