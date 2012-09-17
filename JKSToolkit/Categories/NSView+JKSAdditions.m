@@ -26,9 +26,35 @@
 }
 
 
+#pragma mark - Auto Layout convenience methods
+
 - (void)jks_addVisualConstraintsWithFormat:(NSString *)format views:(NSDictionary *)viewDict
 {
     [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:format options:0 metrics:nil views:viewDict]];
+}
+
+
+- (void)jks_addHorizontalCenterConstraintForView:(NSView *)fromView toView:(NSView *)toView
+{
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:fromView
+                                                     attribute:NSLayoutAttributeCenterY
+                                                     relatedBy:NSLayoutRelationEqual
+                                                        toItem:toView
+                                                     attribute:NSLayoutAttributeCenterY
+                                                    multiplier:1.0
+                                                      constant:0]];
+}
+
+
+- (void)jks_addVerticalCenterConstraintForView:(NSView *)fromView toView:(NSView *)toView
+{
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:fromView
+                                                     attribute:NSLayoutAttributeCenterX
+                                                     relatedBy:NSLayoutRelationEqual
+                                                        toItem:toView
+                                                     attribute:NSLayoutAttributeCenterX
+                                                    multiplier:1.0
+                                                      constant:0]];
 }
 
 @end

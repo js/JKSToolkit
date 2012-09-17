@@ -22,4 +22,10 @@
  */
 - (void)jks_addVisualConstraintsWithFormat:(NSString *)format views:(NSDictionary *)viewDict;
 
+/** Centers fromView horizontally against toView's centerY */
+- (void)jks_addHorizontalCenterConstraintForView:(NSView *)fromView toView:(NSView *)toView;
+
+/** Centers fromView vertically against toView's centerX */
+- (void)jks_addVerticalCenterConstraintForView:(NSView *)fromView toView:(NSView *)toView;
+
 @end
