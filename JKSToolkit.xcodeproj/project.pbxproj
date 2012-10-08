@@ -27,6 +27,8 @@
 		042CDF60156C34F000B6E537 /* NSError+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B691552C2CA002CF16D /* NSError+JKSAdditions.m */; };
 		042CDF61156C34F300B6E537 /* NSDictionary+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B6F155320D8002CF16D /* NSDictionary+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		042CDF62156C34F700B6E537 /* NSDictionary+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */; };
+		0434A9BE1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0434A9BC1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0434A9BF1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434A9BD1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.m */; };
 		043884B01562984100316949 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
 		046B00FE156E727E008743D4 /* NSView+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B00FC156E727E008743D4 /* NSView+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		046B00FF156E727E008743D4 /* NSView+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */; };
@@ -62,6 +64,8 @@
 		04200BD3155407F6002CF16D /* JKSQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSQueue.m; path = Classes/JKSQueue.m; sourceTree = "<group>"; };
 		04200BD815540A6B002CF16D /* JKSQueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSQueueTests.m; sourceTree = "<group>"; };
 		04200BDA15541F10002CF16D /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		0434A9BC1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+JKSAdditions.h"; path = "Categories/NSBezierPath+JKSAdditions.h"; sourceTree = "<group>"; };
+		0434A9BD1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+JKSAdditions.m"; path = "Categories/NSBezierPath+JKSAdditions.m"; sourceTree = "<group>"; };
 		043884AF1562984100316949 /* JKSToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		043884C81562984100316949 /* JKSToolKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSToolKitTests-Info.plist"; sourceTree = "<group>"; };
 		043884CA1562984100316949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -267,6 +271,8 @@
 				046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */,
 				0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */,
 				0490B39015B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m */,
+				0434A9BC1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.h */,
+				0434A9BD1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 				046B0103156E7B37008743D4 /* JKSFlippedView.h in Headers */,
 				046B00FE156E727E008743D4 /* NSView+JKSAdditions.h in Headers */,
 				0490B39115B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h in Headers */,
+				0434A9BE1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.h in Headers */,
 				04F315F41589DB090093739C /* JKSBlockUtilities.h in Headers */,
 				04F315F9158A0B4C0093739C /* JKSToolkit.h in Headers */,
 			);
@@ -419,6 +426,7 @@
 				046B0104156E7B37008743D4 /* JKSFlippedView.m in Sources */,
 				04F315F51589DB090093739C /* JKSBlockUtilities.m in Sources */,
 				0490B39215B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m in Sources */,
+				0434A9BF1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
