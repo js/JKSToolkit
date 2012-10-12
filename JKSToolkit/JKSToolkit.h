@@ -20,3 +20,4 @@
 #import "NSView+JKSAdditions.h"
 #import "CATransaction+JKSAdditions.h"
 #import "NSBezierPath+JKSAdditions.h"
+#import "NSObject+JKSObserving.h"
