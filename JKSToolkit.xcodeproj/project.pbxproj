@@ -32,10 +32,10 @@
 		043884B01562984100316949 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9B98154F3B2B00518173 /* Cocoa.framework */; };
 		043B8C721627FF3300666540 /* NSObject+JKSObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = 043B8C701627FF3300666540 /* NSObject+JKSObserving.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		043B8C731627FF3300666540 /* NSObject+JKSObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B8C711627FF3300666540 /* NSObject+JKSObserving.m */; };
+		04440AAD1635753F00E6D554 /* JKSView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04440AAB1635753F00E6D554 /* JKSView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04440AAE1635753F00E6D554 /* JKSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04440AAC1635753F00E6D554 /* JKSView.m */; };
 		046B00FE156E727E008743D4 /* NSView+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B00FC156E727E008743D4 /* NSView+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		046B00FF156E727E008743D4 /* NSView+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */; };
-		046B0103156E7B37008743D4 /* JKSFlippedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B0101156E7B37008743D4 /* JKSFlippedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		046B0104156E7B37008743D4 /* JKSFlippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B0102156E7B37008743D4 /* JKSFlippedView.m */; };
 		0490B39115B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0490B39215B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0490B39015B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m */; };
 		0490B39515B6AB5000EDEAB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0490B39415B6AB5000EDEAB8 /* QuartzCore.framework */; };
@@ -75,10 +75,10 @@
 		043884CD1562984100316949 /* JKSToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSToolKitTests.m; sourceTree = "<group>"; };
 		043B8C701627FF3300666540 /* NSObject+JKSObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+JKSObserving.h"; path = "Categories/NSObject+JKSObserving.h"; sourceTree = "<group>"; };
 		043B8C711627FF3300666540 /* NSObject+JKSObserving.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JKSObserving.m"; path = "Categories/NSObject+JKSObserving.m"; sourceTree = "<group>"; };
+		04440AAB1635753F00E6D554 /* JKSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSView.h; path = Classes/JKSView.h; sourceTree = "<group>"; };
+		04440AAC1635753F00E6D554 /* JKSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSView.m; path = Classes/JKSView.m; sourceTree = "<group>"; };
 		046B00FC156E727E008743D4 /* NSView+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSView+JKSAdditions.h"; path = "Categories/NSView+JKSAdditions.h"; sourceTree = "<group>"; };
 		046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSView+JKSAdditions.m"; path = "Categories/NSView+JKSAdditions.m"; sourceTree = "<group>"; };
-		046B0101156E7B37008743D4 /* JKSFlippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSFlippedView.h; path = Classes/JKSFlippedView.h; sourceTree = "<group>"; };
-		046B0102156E7B37008743D4 /* JKSFlippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSFlippedView.m; path = Classes/JKSFlippedView.m; sourceTree = "<group>"; };
 		0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CATransaction+JKSAdditions.h"; path = "Categories/CATransaction+JKSAdditions.h"; sourceTree = "<group>"; };
 		0490B39015B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+JKSAdditions.m"; path = "Categories/CATransaction+JKSAdditions.m"; sourceTree = "<group>"; };
 		0490B39415B6AB5000EDEAB8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -156,8 +156,8 @@
 		04A419441590A4BC00F6E290 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				046B0101156E7B37008743D4 /* JKSFlippedView.h */,
-				046B0102156E7B37008743D4 /* JKSFlippedView.m */,
+				04440AAB1635753F00E6D554 /* JKSView.h */,
+				04440AAC1635753F00E6D554 /* JKSView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -302,13 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				042CDF55156C34C300B6E537 /* JKSMacros.h in Headers */,
+				04440AAD1635753F00E6D554 /* JKSView.h in Headers */,
 				042CDF57156C34C900B6E537 /* JKSPathUtilities.h in Headers */,
 				042CDF5A156C34D800B6E537 /* JKSQueue.h in Headers */,
 				042CDF5B156C34DE00B6E537 /* NSArray+JKSToolkit.h in Headers */,
 				042CDF5D156C34E500B6E537 /* NSString+JKSAdditions.h in Headers */,
 				042CDF5F156C34ED00B6E537 /* NSError+JKSAdditions.h in Headers */,
 				042CDF61156C34F300B6E537 /* NSDictionary+JKSAdditions.h in Headers */,
-				046B0103156E7B37008743D4 /* JKSFlippedView.h in Headers */,
 				046B00FE156E727E008743D4 /* NSView+JKSAdditions.h in Headers */,
 				0490B39115B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h in Headers */,
 				0434A9BE1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.h in Headers */,
@@ -430,11 +430,11 @@
 				042CDF60156C34F000B6E537 /* NSError+JKSAdditions.m in Sources */,
 				042CDF62156C34F700B6E537 /* NSDictionary+JKSAdditions.m in Sources */,
 				046B00FF156E727E008743D4 /* NSView+JKSAdditions.m in Sources */,
-				046B0104156E7B37008743D4 /* JKSFlippedView.m in Sources */,
 				04F315F51589DB090093739C /* JKSBlockUtilities.m in Sources */,
 				0490B39215B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m in Sources */,
 				0434A9BF1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.m in Sources */,
 				043B8C731627FF3300666540 /* NSObject+JKSObserving.m in Sources */,
+				04440AAE1635753F00E6D554 /* JKSView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
