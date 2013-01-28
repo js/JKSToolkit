@@ -39,6 +39,33 @@
 		0490B39115B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0490B39215B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0490B39015B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m */; };
 		0490B39515B6AB5000EDEAB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0490B39415B6AB5000EDEAB8 /* QuartzCore.framework */; };
+		04B5F27B16B66F1E0020F31E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B5F27A16B66F1E0020F31E /* Foundation.framework */; };
+		04B5F28916B66F1E0020F31E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA9BAE154F3B2B00518173 /* SenTestingKit.framework */; };
+		04B5F28B16B66F1E0020F31E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B5F28A16B66F1E0020F31E /* UIKit.framework */; };
+		04B5F28C16B66F1E0020F31E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B5F27A16B66F1E0020F31E /* Foundation.framework */; };
+		04B5F28F16B66F1E0020F31E /* libJKSToolkitTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B5F27916B66F1E0020F31E /* libJKSToolkitTouch.a */; };
+		04B5F29516B66F1E0020F31E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B5F29316B66F1E0020F31E /* InfoPlist.strings */; };
+		04B5F29816B66F1E0020F31E /* JKSToolkitTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F29716B66F1E0020F31E /* JKSToolkitTouchTests.m */; };
+		04B5F2C816B671670020F31E /* JKSBlockUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F315F31589DB090093739C /* JKSBlockUtilities.m */; };
+		04B5F2CA16B671770020F31E /* JKSPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */; };
+		04B5F2CB16B6717E0020F31E /* JKSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200BD3155407F6002CF16D /* JKSQueue.m */; };
+		04B5F2CC16B6718B0020F31E /* NSObject+JKSObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B8C711627FF3300666540 /* NSObject+JKSObserving.m */; };
+		04B5F2CD16B671910020F31E /* NSArray+JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */; };
+		04B5F2CE16B671970020F31E /* NSString+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B601552962D002CF16D /* NSString+JKSAdditions.m */; };
+		04B5F2CF16B6719E0020F31E /* NSError+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B691552C2CA002CF16D /* NSError+JKSAdditions.m */; };
+		04B5F2D016B671A70020F31E /* NSDictionary+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */; };
+		04B5F2D116B671AF0020F31E /* CATransaction+JKSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0490B39015B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m */; };
+		04B5F2E116B6748E0020F31E /* JKSBlockUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F315F21589DB090093739C /* JKSBlockUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5F2E216B6748E0020F31E /* JKSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B77155323A4002CF16D /* JKSMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5F2E316B6748E0020F31E /* JKSPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BC7154F3B9600518173 /* JKSPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5F2E416B6748E0020F31E /* JKSQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200BD2155407F6002CF16D /* JKSQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5F2E516B6748E0020F31E /* NSObject+JKSObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = 043B8C701627FF3300666540 /* NSObject+JKSObserving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5F2E616B6748E0020F31E /* NSArray+JKSToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BCF154F3E0400518173 /* NSArray+JKSToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5F2E716B6748E0020F31E /* NSString+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B5F1552962D002CF16D /* NSString+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5F2E816B6748E0020F31E /* NSError+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B681552C2CA002CF16D /* NSError+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5F2E916B6748E0020F31E /* NSDictionary+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B6F155320D8002CF16D /* NSDictionary+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5F2EA16B6748E0020F31E /* CATransaction+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5F2EB16B6748E0020F31E /* JKSToolkitTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B5F26016B66D090020F31E /* JKSToolkitTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04F315F41589DB090093739C /* JKSBlockUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F315F21589DB090093739C /* JKSBlockUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04F315F51589DB090093739C /* JKSBlockUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F315F31589DB090093739C /* JKSBlockUtilities.m */; };
 		04F315F9158A0B4C0093739C /* JKSToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BA5154F3B2B00518173 /* JKSToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,6 +77,28 @@
 		04FA9BD3154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */; };
 		04FA9BD6154F3E2000518173 /* NSArrayJKSToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD5154F3E2000518173 /* NSArrayJKSToolkitTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B5F28D16B66F1E0020F31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FA9B8B154F3B2B00518173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B5F27816B66F1E0020F31E;
+			remoteInfo = JKSToolkitTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04B5F27716B66F1E0020F31E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		04200B5F1552962D002CF16D /* NSString+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JKSAdditions.h"; path = "Categories/NSString+JKSAdditions.h"; sourceTree = "<group>"; };
@@ -82,6 +131,16 @@
 		0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CATransaction+JKSAdditions.h"; path = "Categories/CATransaction+JKSAdditions.h"; sourceTree = "<group>"; };
 		0490B39015B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+JKSAdditions.m"; path = "Categories/CATransaction+JKSAdditions.m"; sourceTree = "<group>"; };
 		0490B39415B6AB5000EDEAB8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04B5F26016B66D090020F31E /* JKSToolkitTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSToolkitTouch.h; sourceTree = "<group>"; };
+		04B5F27916B66F1E0020F31E /* libJKSToolkitTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJKSToolkitTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B5F27A16B66F1E0020F31E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04B5F27E16B66F1E0020F31E /* JKSToolkitTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKSToolkitTouch-Prefix.pch"; sourceTree = "<group>"; };
+		04B5F28816B66F1E0020F31E /* JKSToolkitTouchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKSToolkitTouchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B5F28A16B66F1E0020F31E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		04B5F29216B66F1E0020F31E /* JKSToolkitTouchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSToolkitTouchTests-Info.plist"; sourceTree = "<group>"; };
+		04B5F29416B66F1E0020F31E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04B5F29616B66F1E0020F31E /* JKSToolkitTouchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSToolkitTouchTests.h; sourceTree = "<group>"; };
+		04B5F29716B66F1E0020F31E /* JKSToolkitTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSToolkitTouchTests.m; sourceTree = "<group>"; };
 		04F315F21589DB090093739C /* JKSBlockUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSBlockUtilities.h; path = Functions/JKSBlockUtilities.h; sourceTree = "<group>"; };
 		04F315F31589DB090093739C /* JKSBlockUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSBlockUtilities.m; path = Functions/JKSBlockUtilities.m; sourceTree = "<group>"; };
 		04FA9B98154F3B2B00518173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -111,6 +170,25 @@
 			files = (
 				0490B39515B6AB5000EDEAB8 /* QuartzCore.framework in Frameworks */,
 				043884B01562984100316949 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B5F27616B66F1E0020F31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5F27B16B66F1E0020F31E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B5F28416B66F1E0020F31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5F28916B66F1E0020F31E /* SenTestingKit.framework in Frameworks */,
+				04B5F28B16B66F1E0020F31E /* UIKit.framework in Frameworks */,
+				04B5F28C16B66F1E0020F31E /* Foundation.framework in Frameworks */,
+				04B5F28F16B66F1E0020F31E /* libJKSToolkitTouch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +240,41 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		04B5F27C16B66F1E0020F31E /* JKSToolkitTouch */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F27D16B66F1E0020F31E /* Supporting Files */,
+			);
+			path = JKSToolkitTouch;
+			sourceTree = "<group>";
+		};
+		04B5F27D16B66F1E0020F31E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F27E16B66F1E0020F31E /* JKSToolkitTouch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B5F29016B66F1E0020F31E /* JKSToolkitTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F29616B66F1E0020F31E /* JKSToolkitTouchTests.h */,
+				04B5F29716B66F1E0020F31E /* JKSToolkitTouchTests.m */,
+				04B5F29116B66F1E0020F31E /* Supporting Files */,
+			);
+			path = JKSToolkitTouchTests;
+			sourceTree = "<group>";
+		};
+		04B5F29116B66F1E0020F31E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F29216B66F1E0020F31E /* JKSToolkitTouchTests-Info.plist */,
+				04B5F29316B66F1E0020F31E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		04F315F01589DACB0093739C /* Functions */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +291,8 @@
 				04200BDA15541F10002CF16D /* README.markdown */,
 				04FA9BB4154F3B2B00518173 /* JKSToolkitTests */,
 				043884C61562984100316949 /* JKSToolKitTests */,
+				04B5F27C16B66F1E0020F31E /* JKSToolkitTouch */,
+				04B5F29016B66F1E0020F31E /* JKSToolkitTouchTests */,
 				04FA9B97154F3B2B00518173 /* Frameworks */,
 				04FA9B96154F3B2B00518173 /* Products */,
 			);
@@ -188,6 +303,8 @@
 			children = (
 				04FA9BAD154F3B2B00518173 /* JKSToolkitTests.octest */,
 				043884AF1562984100316949 /* JKSToolKit.framework */,
+				04B5F27916B66F1E0020F31E /* libJKSToolkitTouch.a */,
+				04B5F28816B66F1E0020F31E /* JKSToolkitTouchTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,6 +316,8 @@
 				04200B6D1552CA0A002CF16D /* Security.framework */,
 				04FA9B98154F3B2B00518173 /* Cocoa.framework */,
 				04FA9BAE154F3B2B00518173 /* SenTestingKit.framework */,
+				04B5F27A16B66F1E0020F31E /* Foundation.framework */,
+				04B5F28A16B66F1E0020F31E /* UIKit.framework */,
 				04FA9B9A154F3B2B00518173 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -223,6 +342,7 @@
 				04FA9BC6154F3B7800518173 /* Classes */,
 				04FA9BC5154F3B5700518173 /* Categories */,
 				04FA9BA5154F3B2B00518173 /* JKSToolkit.h */,
+				04B5F26016B66D090020F31E /* JKSToolkitTouch.h */,
 				04FA9B9F154F3B2B00518173 /* Supporting Files */,
 			);
 			path = JKSToolkit;
@@ -318,6 +438,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04B5F2E016B674790020F31E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5F2E116B6748E0020F31E /* JKSBlockUtilities.h in Headers */,
+				04B5F2E216B6748E0020F31E /* JKSMacros.h in Headers */,
+				04B5F2E316B6748E0020F31E /* JKSPathUtilities.h in Headers */,
+				04B5F2E416B6748E0020F31E /* JKSQueue.h in Headers */,
+				04B5F2E516B6748E0020F31E /* NSObject+JKSObserving.h in Headers */,
+				04B5F2E616B6748E0020F31E /* NSArray+JKSToolkit.h in Headers */,
+				04B5F2E716B6748E0020F31E /* NSString+JKSAdditions.h in Headers */,
+				04B5F2E816B6748E0020F31E /* NSError+JKSAdditions.h in Headers */,
+				04B5F2E916B6748E0020F31E /* NSDictionary+JKSAdditions.h in Headers */,
+				04B5F2EA16B6748E0020F31E /* CATransaction+JKSAdditions.h in Headers */,
+				04B5F2EB16B6748E0020F31E /* JKSToolkitTouch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -338,6 +476,43 @@
 			productName = JKSToolKit;
 			productReference = 043884AF1562984100316949 /* JKSToolKit.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		04B5F27816B66F1E0020F31E /* JKSToolkitTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B5F29D16B66F1E0020F31E /* Build configuration list for PBXNativeTarget "JKSToolkitTouch" */;
+			buildPhases = (
+				04B5F27516B66F1E0020F31E /* Sources */,
+				04B5F27616B66F1E0020F31E /* Frameworks */,
+				04B5F27716B66F1E0020F31E /* CopyFiles */,
+				04B5F2E016B674790020F31E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKSToolkitTouch;
+			productName = JKSToolkitTouch;
+			productReference = 04B5F27916B66F1E0020F31E /* libJKSToolkitTouch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		04B5F28716B66F1E0020F31E /* JKSToolkitTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B5F29E16B66F1E0020F31E /* Build configuration list for PBXNativeTarget "JKSToolkitTouchTests" */;
+			buildPhases = (
+				04B5F28316B66F1E0020F31E /* Sources */,
+				04B5F28416B66F1E0020F31E /* Frameworks */,
+				04B5F28516B66F1E0020F31E /* Resources */,
+				04B5F28616B66F1E0020F31E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B5F28E16B66F1E0020F31E /* PBXTargetDependency */,
+			);
+			name = JKSToolkitTouchTests;
+			productName = JKSToolkitTouchTests;
+			productReference = 04B5F28816B66F1E0020F31E /* JKSToolkitTouchTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 		04FA9BAC154F3B2B00518173 /* JKSToolkitTests */ = {
 			isa = PBXNativeTarget;
@@ -380,6 +555,8 @@
 			targets = (
 				043884AE1562984100316949 /* JKSToolKit */,
 				04FA9BAC154F3B2B00518173 /* JKSToolkitTests */,
+				04B5F27816B66F1E0020F31E /* JKSToolkitTouch */,
+				04B5F28716B66F1E0020F31E /* JKSToolkitTouchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -389,6 +566,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B5F28516B66F1E0020F31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5F29516B66F1E0020F31E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +588,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		04B5F28616B66F1E0020F31E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		04FA9BAB154F3B2B00518173 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,6 +636,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04B5F27516B66F1E0020F31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5F2C816B671670020F31E /* JKSBlockUtilities.m in Sources */,
+				04B5F2CA16B671770020F31E /* JKSPathUtilities.m in Sources */,
+				04B5F2CB16B6717E0020F31E /* JKSQueue.m in Sources */,
+				04B5F2CC16B6718B0020F31E /* NSObject+JKSObserving.m in Sources */,
+				04B5F2CD16B671910020F31E /* NSArray+JKSToolkit.m in Sources */,
+				04B5F2CE16B671970020F31E /* NSString+JKSAdditions.m in Sources */,
+				04B5F2CF16B6719E0020F31E /* NSError+JKSAdditions.m in Sources */,
+				04B5F2D016B671A70020F31E /* NSDictionary+JKSAdditions.m in Sources */,
+				04B5F2D116B671AF0020F31E /* CATransaction+JKSAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B5F28316B66F1E0020F31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5F29816B66F1E0020F31E /* JKSToolkitTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04FA9BA8154F3B2B00518173 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -458,11 +680,27 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		04B5F28E16B66F1E0020F31E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B5F27816B66F1E0020F31E /* JKSToolkitTouch */;
+			targetProxy = 04B5F28D16B66F1E0020F31E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		043884C91562984100316949 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				043884CA1562984100316949 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04B5F29316B66F1E0020F31E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B5F29416B66F1E0020F31E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -515,6 +753,86 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		04B5F29916B66F1E0020F31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				DSTROOT = /tmp/JKSToolkitTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKSToolkitTouch/JKSToolkitTouch-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		04B5F29A16B66F1E0020F31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				DSTROOT = /tmp/JKSToolkitTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKSToolkitTouch/JKSToolkitTouch-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B5F29B16B66F1E0020F31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKSToolkitTouch/JKSToolkitTouch-Prefix.pch";
+				INFOPLIST_FILE = "JKSToolkitTouchTests/JKSToolkitTouchTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		04B5F29C16B66F1E0020F31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKSToolkitTouch/JKSToolkitTouch-Prefix.pch";
+				INFOPLIST_FILE = "JKSToolkitTouchTests/JKSToolkitTouchTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -603,6 +921,24 @@
 			buildConfigurations = (
 				043884CF1562984100316949 /* Debug */,
 				043884D01562984100316949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B5F29D16B66F1E0020F31E /* Build configuration list for PBXNativeTarget "JKSToolkitTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B5F29916B66F1E0020F31E /* Debug */,
+				04B5F29A16B66F1E0020F31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B5F29E16B66F1E0020F31E /* Build configuration list for PBXNativeTarget "JKSToolkitTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B5F29B16B66F1E0020F31E /* Debug */,
+				04B5F29C16B66F1E0020F31E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
