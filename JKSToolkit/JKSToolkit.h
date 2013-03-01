@@ -21,3 +21,4 @@
 #import "CATransaction+JKSAdditions.h"
 #import "NSBezierPath+JKSAdditions.h"
 #import "NSObject+JKSObserving.h"
+#import "NSImage+JKSAdditions.h"
