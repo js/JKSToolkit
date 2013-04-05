@@ -7,22 +7,24 @@
 //
 
 #import "NSImage+JKSAdditions.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation NSImage (JKSAdditions)
 - (NSImage *)jks_imageTintedWithColor:(NSColor *)tintColor
 {
-    __weak NSImage *weakSelf = self;
-    return [NSImage imageWithSize:self.size flipped:self.isFlipped drawingHandler:^BOOL(NSRect dstRect) {
-        __strong NSImage *strongSelf = weakSelf;
-        NSRect imageRect = (NSRect){
-            .origin = {0, 0},
-            .size = strongSelf.size
-        };
-        [strongSelf drawAtPoint:NSZeroPoint fromRect:imageRect operation:NSCompositeCopy fraction:1.0];
-        [tintColor set];
-        NSRectFillUsingOperation(imageRect, NSCompositeSourceAtop);
+    NSImage *tintedImage = [[NSImage alloc] initWithSize:[self size]];
+    [tintedImage lockFocus];
 
-        return YES;
-    }];
+    NSRect imageRect = (NSRect){
+        .origin = {0, 0},
+        .size = self.size
+    };
+    [self drawAtPoint:NSZeroPoint fromRect:imageRect operation:NSCompositeCopy fraction:1.0];
+    [tintColor set];
+    NSRectFillUsingOperation(imageRect, NSCompositeSourceAtop);
+
+    [tintedImage unlockFocus];
+
+    return tintedImage;
 }
 @end
