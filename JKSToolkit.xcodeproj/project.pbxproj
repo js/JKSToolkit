@@ -78,6 +78,11 @@
 		04FA9BCE154F3BF400518173 /* JKSPathUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BCD154F3BF400518173 /* JKSPathUtilitiesTest.m */; };
 		04FA9BD3154F3E0400518173 /* NSArray+JKSToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */; };
 		04FA9BD6154F3E2000518173 /* NSArrayJKSToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BD5154F3E2000518173 /* NSArrayJKSToolkitTests.m */; };
+		04FF4C8C173BCCD600463DCA /* NSString+JKSBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FF4C8A173BCCD600463DCA /* NSString+JKSBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04FF4C8D173BCCD600463DCA /* NSString+JKSBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF4C8B173BCCD600463DCA /* NSString+JKSBase64.m */; };
+		04FF4C8E173BCCD600463DCA /* NSString+JKSBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF4C8B173BCCD600463DCA /* NSString+JKSBase64.m */; };
+		04FF4C8F173BCF5800463DCA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04200B6D1552CA0A002CF16D /* Security.framework */; };
+		04FF4C90173BCFF100463DCA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04200B6D1552CA0A002CF16D /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +170,8 @@
 		04FA9BCF154F3E0400518173 /* NSArray+JKSToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+JKSToolkit.h"; path = "Categories/NSArray+JKSToolkit.h"; sourceTree = "<group>"; };
 		04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JKSToolkit.m"; path = "Categories/NSArray+JKSToolkit.m"; sourceTree = "<group>"; };
 		04FA9BD5154F3E2000518173 /* NSArrayJKSToolkitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayJKSToolkitTests.m; sourceTree = "<group>"; };
+		04FF4C8A173BCCD600463DCA /* NSString+JKSBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JKSBase64.h"; path = "Categories/NSString+JKSBase64.h"; sourceTree = "<group>"; };
+		04FF4C8B173BCCD600463DCA /* NSString+JKSBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JKSBase64.m"; path = "Categories/NSString+JKSBase64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FF4C8F173BCF5800463DCA /* Security.framework in Frameworks */,
 				0490B39515B6AB5000EDEAB8 /* QuartzCore.framework in Frameworks */,
 				043884B01562984100316949 /* Cocoa.framework in Frameworks */,
 			);
@@ -200,6 +208,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FF4C90173BCFF100463DCA /* Security.framework in Frameworks */,
 				04FA9BAF154F3B2B00518173 /* SenTestingKit.framework in Frameworks */,
 				04FA9BB0154F3B2B00518173 /* Cocoa.framework in Frameworks */,
 			);
@@ -393,6 +402,8 @@
 				04FA9BD0154F3E0400518173 /* NSArray+JKSToolkit.m */,
 				04200B5F1552962D002CF16D /* NSString+JKSAdditions.h */,
 				04200B601552962D002CF16D /* NSString+JKSAdditions.m */,
+				04FF4C8A173BCCD600463DCA /* NSString+JKSBase64.h */,
+				04FF4C8B173BCCD600463DCA /* NSString+JKSBase64.m */,
 				04200B681552C2CA002CF16D /* NSError+JKSAdditions.h */,
 				04200B691552C2CA002CF16D /* NSError+JKSAdditions.m */,
 				04200B6F155320D8002CF16D /* NSDictionary+JKSAdditions.h */,
@@ -441,6 +452,7 @@
 				0434A9BE1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.h in Headers */,
 				043B8C721627FF3300666540 /* NSObject+JKSObserving.h in Headers */,
 				04F315F41589DB090093739C /* JKSBlockUtilities.h in Headers */,
+				04FF4C8C173BCCD600463DCA /* NSString+JKSBase64.h in Headers */,
 				04F315F9158A0B4C0093739C /* JKSToolkit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -641,6 +653,7 @@
 				043B8C731627FF3300666540 /* NSObject+JKSObserving.m in Sources */,
 				04440AAE1635753F00E6D554 /* JKSView.m in Sources */,
 				0401E7D116E0F584001C1A7C /* NSImage+JKSAdditions.m in Sources */,
+				04FF4C8D173BCCD600463DCA /* NSString+JKSBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,6 +696,7 @@
 				04200B76155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m in Sources */,
 				04200BD6155407F6002CF16D /* JKSQueue.m in Sources */,
 				04200BD915540A6B002CF16D /* JKSQueueTests.m in Sources */,
+				04FF4C8E173BCCD600463DCA /* NSString+JKSBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

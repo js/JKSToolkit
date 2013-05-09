@@ -8,6 +8,7 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 #import "NSString+JKSAdditions.h"
+#import "NSString+JKSBase64.h"
 
 @interface JKSNSStringAdditionsTests : SenTestCase
 
@@ -52,6 +53,18 @@
 - (void)testSHA256Hash
 {
     STAssertEqualObjects(@"cc7b318a05d752cb1183d89545bc39017fdd811565520073fd17e323b738c283", [@"fubar" jks_SHA256Hash], nil);
+}
+
+
+- (void)testBase64Encode
+{
+    STAssertEqualObjects(@"SGVsbG8gV29ybGQh", [@"Hello World!" jks_base64EncodedString], nil);
+}
+
+
+- (void)testBase64Decode
+{
+    STAssertEqualObjects(@"Hello World!", [@"SGVsbG8gV29ybGQh" jks_base64DecodedString], nil);
 }
 
 @end

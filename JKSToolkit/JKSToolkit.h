@@ -22,3 +22,4 @@
 #import "NSBezierPath+JKSAdditions.h"
 #import "NSObject+JKSObserving.h"
 #import "NSImage+JKSAdditions.h"
+#import "NSString+JKSBase64.h"
