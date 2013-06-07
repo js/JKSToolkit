@@ -21,6 +21,16 @@ Currently not setup to build a static library or framework. Add the JKSToolkit
 repository as a git submodule, add any files you need to your project. Link 
 against Security.framework for the hashing methods.
 
+#### OS X
+
+* Add JKSToolkit.framework as a link phase and target dependency
+* #import <JKSToolkit/JKSToolkit.h>
+
+#### iOS
+
+* Add libJKSToolkitTouch.a as a link phase and target dependency
+* #import <JKSToolkitTouch/JKSToolkitTouch.h>
+
 
 ## License
 
