@@ -16,6 +16,8 @@
 		04200B76155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200B75155321B8002CF16D /* JKSNSDictionaryAdditionsTests.m */; };
 		04200BD6155407F6002CF16D /* JKSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200BD3155407F6002CF16D /* JKSQueue.m */; };
 		04200BD915540A6B002CF16D /* JKSQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04200BD815540A6B002CF16D /* JKSQueueTests.m */; };
+		0424A472176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0424A470176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0424A473176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424A471176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.m */; };
 		042CDF55156C34C300B6E537 /* JKSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B77155323A4002CF16D /* JKSMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		042CDF57156C34C900B6E537 /* JKSPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BC7154F3B9600518173 /* JKSPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		042CDF58156C34CF00B6E537 /* JKSPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA9BC8154F3B9600518173 /* JKSPathUtilities.m */; };
@@ -124,6 +126,8 @@
 		04200BD3155407F6002CF16D /* JKSQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSQueue.m; path = Classes/JKSQueue.m; sourceTree = "<group>"; };
 		04200BD815540A6B002CF16D /* JKSQueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSQueueTests.m; sourceTree = "<group>"; };
 		04200BDA15541F10002CF16D /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		0424A470176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JKSAutoLayoutAdditions.h"; path = "Categories/UIView+JKSAutoLayoutAdditions.h"; sourceTree = "<group>"; };
+		0424A471176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JKSAutoLayoutAdditions.m"; path = "Categories/UIView+JKSAutoLayoutAdditions.m"; sourceTree = "<group>"; };
 		0434A9BC1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+JKSAdditions.h"; path = "Categories/NSBezierPath+JKSAdditions.h"; sourceTree = "<group>"; };
 		0434A9BD1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+JKSAdditions.m"; path = "Categories/NSBezierPath+JKSAdditions.m"; sourceTree = "<group>"; };
 		043884AF1562984100316949 /* JKSToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -410,6 +414,8 @@
 				04200B70155320D8002CF16D /* NSDictionary+JKSAdditions.m */,
 				046B00FC156E727E008743D4 /* NSView+JKSAdditions.h */,
 				046B00FD156E727E008743D4 /* NSView+JKSAdditions.m */,
+				0424A470176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.h */,
+				0424A471176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.m */,
 				0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */,
 				0490B39015B6AA6400EDEAB8 /* CATransaction+JKSAdditions.m */,
 				0434A9BC1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.h */,
@@ -470,6 +476,7 @@
 				04B5F2E716B6748E0020F31E /* NSString+JKSAdditions.h in Headers */,
 				04B5F2E816B6748E0020F31E /* NSError+JKSAdditions.h in Headers */,
 				04B5F2E916B6748E0020F31E /* NSDictionary+JKSAdditions.h in Headers */,
+				0424A472176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.h in Headers */,
 				04B5F2EA16B6748E0020F31E /* CATransaction+JKSAdditions.h in Headers */,
 				04B5F2EB16B6748E0020F31E /* JKSToolkitTouch.h in Headers */,
 			);
@@ -663,6 +670,7 @@
 			files = (
 				04B5F2C816B671670020F31E /* JKSBlockUtilities.m in Sources */,
 				04B5F2CA16B671770020F31E /* JKSPathUtilities.m in Sources */,
+				0424A473176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.m in Sources */,
 				04B5F2CB16B6717E0020F31E /* JKSQueue.m in Sources */,
 				04B5F2CC16B6718B0020F31E /* NSObject+JKSObserving.m in Sources */,
 				04B5F2CD16B671910020F31E /* NSArray+JKSToolkit.m in Sources */,
