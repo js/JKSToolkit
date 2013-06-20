@@ -56,4 +56,35 @@
     STAssertEqualObjects(expected, everyThird, nil);
 }
 
+
+- (void)testMapUsingBlock
+{
+    NSArray *letters = [@"a b c" componentsSeparatedByString:@" "];
+    NSArray *mapped = [letters jks_mapUsingBlock:^id(id obj, NSUInteger idx, BOOL *stop) {
+        return [NSString stringWithFormat:@"%@%lu", obj, idx];
+    }];
+    STAssertEqualObjects((@[ @"a0", @"b1", @"c2" ]), mapped, nil);
+}
+
+
+- (void)testMapUsingBlockReturningNil
+{
+    NSArray *letters = [@"a b c" componentsSeparatedByString:@" "];
+    NSArray *mapped = [letters jks_mapUsingBlock:^id(id obj, NSUInteger idx, BOOL *stop) {
+        return (idx > 0 ? nil : obj);
+    }];
+    STAssertEqualObjects(@[ @"a" ], mapped, nil);
+}
+
+- (void)testMapUsingBlockSettingStopPointer
+{
+    NSArray *letters = [@"a b c" componentsSeparatedByString:@" "];
+    NSArray *mapped = [letters jks_mapUsingBlock:^id(id obj, NSUInteger idx, BOOL *stop) {
+        if (idx > 0)
+            *stop = YES;
+        return obj;
+    }];
+    STAssertEqualObjects(@[ @"a" ], mapped, nil);
+}
+
 @end

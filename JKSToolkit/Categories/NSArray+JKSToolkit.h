@@ -30,4 +30,11 @@
  */
 - (NSArray *)jks_selectEvery:(NSUInteger)nth;
 
+/** Returns a new array containing the objects returned from each predicateBlock
+ *
+ * @note Returning nil from the predicateBlock to not include the object (meaning the returned array will be of 
+ * different size than the original)
+ */
+- (NSArray *)jks_mapUsingBlock:(id (^)(id obj, NSUInteger idx, BOOL *stop))predicateBlock;
+
 @end

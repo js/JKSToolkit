@@ -45,4 +45,18 @@
     return [NSArray arrayWithArray:selected];
 }
 
+
+- (NSArray *)jks_mapUsingBlock:(id (^)(id obj, NSUInteger idx, BOOL *stop))predicateBlock
+{
+    NSMutableArray *mappedObjects = [[NSMutableArray alloc] init];
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        id mapped = predicateBlock(obj, idx, stop);
+        if ((mapped != nil) && !*stop) {
+            [mappedObjects addObject:mapped];
+        }
+    }];
+
+    return [NSArray arrayWithArray:mappedObjects];
+}
+
 @end
