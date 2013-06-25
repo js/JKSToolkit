@@ -70,6 +70,9 @@
 		04B5F2E916B6748E0020F31E /* NSDictionary+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04200B6F155320D8002CF16D /* NSDictionary+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04B5F2EA16B6748E0020F31E /* CATransaction+JKSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0490B38F15B6AA6400EDEAB8 /* CATransaction+JKSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04B5F2EB16B6748E0020F31E /* JKSToolkitTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B5F26016B66D090020F31E /* JKSToolkitTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04EE1721177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EE171F177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04EE1722177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1720177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m */; };
+		04EE1723177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1720177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m */; };
 		04F315F41589DB090093739C /* JKSBlockUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F315F21589DB090093739C /* JKSBlockUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04F315F51589DB090093739C /* JKSBlockUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F315F31589DB090093739C /* JKSBlockUtilities.m */; };
 		04F315F9158A0B4C0093739C /* JKSToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA9BA5154F3B2B00518173 /* JKSToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -154,6 +157,8 @@
 		04B5F29416B66F1E0020F31E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04B5F29616B66F1E0020F31E /* JKSToolkitTouchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSToolkitTouchTests.h; sourceTree = "<group>"; };
 		04B5F29716B66F1E0020F31E /* JKSToolkitTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSToolkitTouchTests.m; sourceTree = "<group>"; };
+		04EE171F177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+JKSStrokeInside.h"; path = "Categories/UIBezierPath+JKSStrokeInside.h"; sourceTree = "<group>"; };
+		04EE1720177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+JKSStrokeInside.m"; path = "Categories/UIBezierPath+JKSStrokeInside.m"; sourceTree = "<group>"; };
 		04F315F21589DB090093739C /* JKSBlockUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKSBlockUtilities.h; path = Functions/JKSBlockUtilities.h; sourceTree = "<group>"; };
 		04F315F31589DB090093739C /* JKSBlockUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKSBlockUtilities.m; path = Functions/JKSBlockUtilities.m; sourceTree = "<group>"; };
 		04FA9B98154F3B2B00518173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -422,6 +427,8 @@
 				0434A9BD1622BD3C0068E5AF /* NSBezierPath+JKSAdditions.m */,
 				0401E7CE16E0F583001C1A7C /* NSImage+JKSAdditions.h */,
 				0401E7CF16E0F583001C1A7C /* NSImage+JKSAdditions.m */,
+				04EE171F177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.h */,
+				04EE1720177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -476,6 +483,7 @@
 				04B5F2E716B6748E0020F31E /* NSString+JKSAdditions.h in Headers */,
 				04B5F2E816B6748E0020F31E /* NSError+JKSAdditions.h in Headers */,
 				04B5F2E916B6748E0020F31E /* NSDictionary+JKSAdditions.h in Headers */,
+				04EE1721177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.h in Headers */,
 				0424A472176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.h in Headers */,
 				04B5F2EA16B6748E0020F31E /* CATransaction+JKSAdditions.h in Headers */,
 				04B5F2EB16B6748E0020F31E /* JKSToolkitTouch.h in Headers */,
@@ -677,6 +685,7 @@
 				04B5F2CE16B671970020F31E /* NSString+JKSAdditions.m in Sources */,
 				04B5F2CF16B6719E0020F31E /* NSError+JKSAdditions.m in Sources */,
 				04B5F2D016B671A70020F31E /* NSDictionary+JKSAdditions.m in Sources */,
+				04EE1722177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m in Sources */,
 				04B5F2D116B671AF0020F31E /* CATransaction+JKSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -685,6 +694,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EE1723177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m in Sources */,
 				04B5F29816B66F1E0020F31E /* JKSToolkitTouchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

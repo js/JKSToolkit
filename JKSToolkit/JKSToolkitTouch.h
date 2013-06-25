@@ -19,3 +19,4 @@
 #import "CATransaction+JKSAdditions.h"
 #import "NSObject+JKSObserving.h"
 #import "UIView+JKSAutoLayoutAdditions.h"
+#import "UIBezierPath+JKSStrokeInside.h"
