@@ -14,8 +14,8 @@
 #define DLOG(args...) while(0){}
 #endif
 
-#define JKSDegreesToRadians(deg) (deg * M_PI * 180.0f)
-#define JKSRadiansToDegrees(rad) (rad * 180.0f / M_PI)
+#define JKSDegreesToRadians(deg) ((deg * M_PI) / 180.0f)
+#define JKSRadiansToDegrees(rad) ((rad * 180.0f) / M_PI)
 
 #define UICOLOR(r, g, b, a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define NSCOLOR(r, g, b, a) [NSColor colorWithCalibratedRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
