@@ -8,6 +8,7 @@
 
 #import "JKSMacros.h"
 #import "JKSBlockUtilities.h"
+#import "JKSGeometry.h"
 
 #import "JKSView.h"
 #import "JKSPathUtilities.h"

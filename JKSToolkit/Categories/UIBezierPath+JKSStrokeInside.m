@@ -7,6 +7,7 @@
 //
 
 #import "UIBezierPath+JKSStrokeInside.h"
+#import <CoreGraphics/CGContext.h>
 
 @implementation UIBezierPath (JKSStrokeInside)
 
