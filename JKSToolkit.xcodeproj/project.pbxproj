@@ -74,7 +74,7 @@
 		04EE1722177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1720177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m */; };
 		04EE1723177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1720177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.m */; };
 		04EE1736177C2713008B0CF4 /* JKSGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EE1734177C2713008B0CF4 /* JKSGeometry.h */; };
-		04EE1737177C2713008B0CF4 /* JKSGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EE1734177C2713008B0CF4 /* JKSGeometry.h */; };
+		04EE1737177C2713008B0CF4 /* JKSGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EE1734177C2713008B0CF4 /* JKSGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04EE1738177C2713008B0CF4 /* JKSGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1735177C2713008B0CF4 /* JKSGeometry.m */; };
 		04EE1739177C2713008B0CF4 /* JKSGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1735177C2713008B0CF4 /* JKSGeometry.m */; };
 		04EE173A177C2713008B0CF4 /* JKSGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1735177C2713008B0CF4 /* JKSGeometry.m */; };
@@ -492,7 +492,6 @@
 				04B5F2E116B6748E0020F31E /* JKSBlockUtilities.h in Headers */,
 				04B5F2E216B6748E0020F31E /* JKSMacros.h in Headers */,
 				04B5F2E316B6748E0020F31E /* JKSPathUtilities.h in Headers */,
-				04EE1737177C2713008B0CF4 /* JKSGeometry.h in Headers */,
 				04B5F2E416B6748E0020F31E /* JKSQueue.h in Headers */,
 				04B5F2E516B6748E0020F31E /* NSObject+JKSObserving.h in Headers */,
 				04B5F2E616B6748E0020F31E /* NSArray+JKSToolkit.h in Headers */,
@@ -501,6 +500,7 @@
 				04B5F2E916B6748E0020F31E /* NSDictionary+JKSAdditions.h in Headers */,
 				04EE1721177995FB008B0CF4 /* UIBezierPath+JKSStrokeInside.h in Headers */,
 				0424A472176FAEBB00FF2770 /* UIView+JKSAutoLayoutAdditions.h in Headers */,
+				04EE1737177C2713008B0CF4 /* JKSGeometry.h in Headers */,
 				04B5F2EA16B6748E0020F31E /* CATransaction+JKSAdditions.h in Headers */,
 				04B5F2EB16B6748E0020F31E /* JKSToolkitTouch.h in Headers */,
 			);
